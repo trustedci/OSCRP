@@ -255,7 +255,7 @@ Instruments
 
 -   Network-connected sensors (e.g., neutrino collectors)
 
--   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](https://docs.google.com/a/lbl.gov/document/d/1fE2ZYiXFhlDEZVNIk9RxtSUHw0FkAXrlTq2abMaKyxI/edit?usp=sharing)
+-   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](http://http://trustedci.github.io/OSCTP/assets/Network-connected_scientific_control systems.md)
 
 -   Network-connected building control systems that can impact scientific systems (e.g., HVAC)
 

@@ -1,0 +1,1 @@
+<img src="../diagrams/Cyber-Physical Control System.png" width="624" height="392" />
