@@ -1,11 +1,17 @@
 # Open Science Cyber Risk Profile
 
+## Table of Contents
+1. [Authors](#authors)
+2. [Executive Summary](#executive-summary)
+
+<a name="#authors" / >
 ## Authors
 
 This OSCTP is a product of the OSCTP working group. The OSCTP working group is led by [*Sean Peisert*](http://crd.lbl.gov/departments/data-science-and-technology/integrated-data-frameworks/staff/sean-peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from ESnet and [*Von Welch*](https://cacr.iu.edu/about/People/administration/von-welch.php), [*Andrew Adams*](http://staff.psc.edu/akadams/), and [*Susan Sons*](https://cacr.iu.edu/about/People/staff/susan-sons.php) from the NSF Cybersecurity Center of Excellence. Members of the working group are: [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue HUBzero)*](https://hubzero.org/members/1292), [*Reagan Moore (iRods)*](http://wiki.irods.org/index.php/Reagan_Moore), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X).
 
 For the lastest version and more information about the group, please see [*http://trustedci.github.io/OSCTP/*](http://trustedci.github.io/OSCTP/)
 
+<a name="#executive-summary" / >
 ## Executive Summary
 
 While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many others sectors such as finance, medical, etc., it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to aid Principal Investigators and their supporting IT professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For example, for those utilizing the CTSC Cybersecurity Program Guide,[1] this should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
