@@ -221,7 +221,7 @@ Facilities and Hardware Assets
 
 -   Mobile devices (tablets, smartphones, smartwatches)
 
--   [*Networks*](https://drive.google.com/open?id=0B5kIR_QtpaEmeWMxZEpoNWpESUE): Medium used to access or transport data
+-   [*Networks*](http://trustedci.github.io/OSCTP/assets/Networks.md): Medium used to access or transport data
 
 -   Facilities: Physical storage, power & climate control used to house assets
 
@@ -232,7 +232,7 @@ Facilities and Hardware Assets
 Software Assets
 ---------------
 
--   [*File-store*](https://drive.google.com/open?id=0B5kIR_QtpaEmeUUySlhUTDEzQ1E): System to archive data
+-   [*File-store*](http://trustedci.github.io/OSCTP/assets/File-store.md): System to archive data
 
 -   Front-end: System to access archived data, usually web-based
 
