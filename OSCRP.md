@@ -192,7 +192,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 Data Assets
 -----------
 
--   [*Public Data*](https://drive.google.com/open?id=0B5kIR_QtpaEmY01rcUxpOTlpYVU): Published generated or collected Open Science data.
+-   [*Public Data*](http://trustedci.github.io/OSCTP/assets/Public%20Data.md): Published generated or collected Open Science data.
 
 -   [*Embargoed Data*](https://docs.google.com/document/d/1UU-Twbo33ekbxRI5GM6OCMArPlNnGweZkXNzY06cTlQ/edit): Open Science data that has not yet been publicly released.
 
