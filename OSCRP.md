@@ -43,7 +43,7 @@ For the lastest version and more information about the group, please see [*http:
 
 While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many others sectors such as finance, medical, etc., it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to aid Principal Investigators and their supporting IT professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For example, for those utilizing the CTSC Cybersecurity Program Guide,[1] this should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
 
-This document achieves these goals by providing a list of information assets common to open science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those assets, with a list of concerns and consequences. The document describes how to use this list of common assets to understand a project’s concerns, assess them, and begin the process of mitigating them.
+This document achieves these goals by providing a list of information assets common to open science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those assets, with a list of concerns and consequences. The document describes how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
 
 Other goals of the document include:
 
@@ -55,9 +55,9 @@ Other goals of the document include:
 
 ## Who This Document is Intended For
 
-The primary audience of this document is intended to be principal investigators (PIs) of “open science” projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc…), as well as information technology professionals involved in scientific research projects. Open science is defined here as “a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations.”
+The primary audience of this document is intended to be principal investigators (PIs) of "open science" projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc...), as well as information technology professionals involved in scientific research projects. Open science is defined here as "a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations."
 
-Not every scientific research project involving computing has a dedicated or even designated “information technology professional” involved. However, we make the assumption that even such projects typically have a *de facto* IT person. That person may be at the “institutional level” and therefore be almost entirely disconnected from the scientific project, and perhaps even completely unaware of it. In those cases, one of the purposes for this document is to enable PIs to help engage with institutional IT professionals to discuss risks.
+Not every scientific research project involving computing has a dedicated or even designated "information technology professional" involved. However, we make the assumption that even such projects typically have a *de facto* IT person. That person may be at the "institutional level" and therefore be almost entirely disconnected from the scientific project, and perhaps even completely unaware of it. In those cases, one of the purposes for this document is to enable PIs to help engage with institutional IT professionals to discuss risks.
 
 A secondary audience for this document is institutional IT professionals (e.g., CIOs, CISOs). While we do not anticipate that institutional IT professionals will necessarily use this document directly, we expect that it may be useful for institutional IT professionals to provide to PIs and research IT professionals within their organization.
 
@@ -69,11 +69,11 @@ We do make the assumption that the institution where open science takes place ha
 
 We read stories daily about computer security incidents. Home Depot. Sony. The U.S. Office of Personnel Management. Hospitals getting hit by ransomware. All of those organizations take security seriously, but are still vulnerable.
 
-Believe it or not, science — even "open," unclassified science is vulnerable as well. And indeed, "open science" can at times be particularly vulnerable because "open science" is often so exposed, because by nature there tends to be significant sharing of data, resources, and/or results.
+Believe it or not, science --- even "open," unclassified science is vulnerable as well. And indeed, "open science" can at times be particularly vulnerable because "open science" is often so exposed, because by nature there tends to be significant sharing of data, resources, and/or results.
 
 Sometimes, that science is specifically targeted by attackers who are interested in doing nothing more than causing a little mayhem on the side.
 
-At other times, attackers — perhaps even scientific competitors — may be interested in seeing data before it is publicly released. Attackers might even be interested in tainting the results of experiments, too. Finally, there may well be times when computing systems related to science projects are the innocent bystanders who are nonetheless the victims of "malware" that is simply ever-present on the Internet.
+At other times, attackers --- perhaps even scientific competitors --- may be interested in seeing data before it is publicly released. Attackers might even be interested in tainting the results of experiments, too. Finally, there may well be times when computing systems related to science projects are the innocent bystanders who are nonetheless the victims of "malware" that is simply ever-present on the Internet.
 
 We assert that something on the order of 80% of "good computer security" results from basic "computer hygiene," such as having multiple, backups including some off-site, keeping systems "patched" and up to date, and limiting access controls as much as possible. This document does not cover basic computer hygiene or system administration. This document is intended to cover the *other* 20% that basic hygiene and administration *do not* cover well.
 
@@ -92,7 +92,7 @@ Aside from integrity, while some "open science" is done entirely in the open, su
 Or regarding "availability," what if a scientific instrument were unavailable for an extended period of time, or had unpredictable availability so that the instrument could not be trusted? Or what if a key data set used by the public went offline of a period of time, and hindered critical work by other researchers?
 Finally, what if a key server being used by a research group was wiped clean and a month or a year of data was lost?
 
-The point we emphasize in this document is that computer security-related consequences in "open science" can be as important as consequences elsewhere, and researchers should not assume that simply because are eventually intended to be published openly that they should not care about computer security. Nor, should researchers assume that their institutions will protect them — at least not without active engagement between the PI and the institution.
+The point we emphasize in this document is that computer security-related consequences in "open science" can be as important as consequences elsewhere, and researchers should not assume that simply because are eventually intended to be published openly that they should not care about computer security. Nor, should researchers assume that their institutions will protect them --- at least not without active engagement between the PI and the institution.
 
 <!-- <a name="#examples-of-computer-security-incidents-affecting-research" / > -->
 
@@ -137,7 +137,7 @@ The following are the intended steps for using this document. The expectation is
 
 *Intended Steps to Use this Document*
 
-1.  Identify the "stakeholders" of the science project — at the very least, this includes the principal investigator(s) and science team; other researchers, including possible external users; the institution that "owns" the science instrument, the project, and the "mission" it supports; and possibly human subjects of the science project.
+1.  Identify the "stakeholders" of the science project --- at the very least, this includes the principal investigator(s) and science team; other researchers, including possible external users; the institution that "owns" the science instrument, the project, and the "mission" it supports; and possibly human subjects of the science project.
 
 2.  Create an asset inventory for the project by looking through the list of common assets in the "Common Open Science Assets" section, and identifying all the assets relevant to the open science project.
 
@@ -193,46 +193,40 @@ The following terms are used by the OSCTP with particular meaning as given.
 
 # Usage Example: Embargoed Data Case Study
 
-[*Original Example Link*](https://docs.google.com/document/d/1UU-Twbo33ekbxRI5GM6OCMArPlNnGweZkXNzY06cTlQ/edit)
+For this example we'll pretend we are the PI for a small science project that has a couple telescopes tracking changes in the night sky over time.  In *Step 1* of the process flow, we identify the stakeholders as our immediate project team, a collaborating research team, and the institutions that house the two telescopes.  The stakeholders may be brought in to help with the remaining steps as well as to discuss the results.
 
-For this example we'll assume we are the PI for a small science project that has a couple telescopes tracking changes in the night sky over time. We will assume the stakeholders have already been identified and begin with Step 2 by going through the Asset Catalogue below and selecting Assets that are relevant to our project.
-
-XXX Add example of steps 1 & 2, identify stakeholders and inventory of assets.
-
-Select assets: (for each of these, define how it applies for our example project, what the asset 'really is'
+With the stakeholders identified, we proceed with *Step 2* by going through the Asset Catalogue below and selecting Assets that are relevant to our project.  As we select our Assets, we'll also include brief descriptions of the precise project Asset we're referring to.
 
 We believe the following Assets apply to our project:
 
--   Embargoed Data: Due to the specific funding sources and collaborators involved, it's important to the stakeholders that any potential discoveries made by this project have time to be vetted by appropriate experts and carefully released to the public.
+-   Embargoed Data:  Due to the funding sources and collaborators involved, it's important to the stakeholders that any potential discoveries made by this project have time to be vetted by appropriate experts and carefully released to the public.  Specifically, the triangulated location of small and medium-sized near Earth objects should be kept secure for the private analysis of project scientists.
 
--   Staff Computing & Networking:
 
--   Telescope: Our telescope has a network-connected control system that allows for remote collaborators to adjust parameters.
+-   Staff Computing & Networking:   The workstations, laptops, and connectivity of project staff and any outside collaborators.
 
--   File-store: The data from the telescope as well as preliminary results are stored on a central data storage system.
+-   Telescopes: Our telescopes have network-connected control system that allows for remote collaborators to adjust parameters.  Both telescopes are considered similar, but separate assets due to their placement at different institutions.
 
-Having selected the Assets that apply to the example project, we continue with Step 3...
 
-To continue the process for this example, we'll select just one of our assets: "Embargoed Data."
+-   File-store:   The data from the telescope as well as preliminary results are stored on a central data storage system.
 
-For this asset we see the following base diagram:
+While we've tried to be comprehensive, please don't hesitate to identify your own assets that may not be covered by our examples.
 
-<img src="media/image01.png" width="624" height="392" />
+*Step 3* begins after the Assets have been identified.   To continue the process for this example exercise, we'll select just one of our assets: "Embargoed Data," which has the following Consequences, Concerns and Avenues of Attack diagram:
 
-From this diagram, select the Concerns and Consequences that are most relevant to your project. It is often helpful to color code your own copy of the diagram to help portray these decisions and well as their relative importance. This will help prioritize later actions.
 
-<img src="media/image03.png" width="624" height="386" />
+![Example 1 Base Diagram](diagrams/Example-1-Base-Diagram-2016-09-06.png)
 
-In this sample case, shown in Figure X, we've selected that we are most concerned about lost data with corrupted data being a close second. While we prefer our data to be embargoed, it would not be the end of the world if it happened to get exposed. Next we are assuming for our example that it's impossible to reproduce new data so the first Consequence from the reference diagram is removed, as well as the possibility of legal action. However, we've decided that data exposure would result in another Consequence so we've added a custom one, "loss of control of result of publication."
+From this diagram, select the Concerns and Consequences that are most relevant to your project.  It is often helpful to color code your own copy of the diagram to help portray these decisions and well as their relative importance.  By focusing on the Consequences that are most important to the project, it will automatically lead us to the Avenues of Attacks that we will want to be most concerned about.  This will help prioritize later actions.
 
-As you can see, by only looking at what Consequences are important to us as scientists, we are left with a mapping to possible Avenues of Attack. This will make it easier to think about and discuss (with your IT/cyber security lead) what can be done to mitigate those Avenues of Attack, focusing on those that address your highest Concerns. In addition, try to think about what other Avenues of Attack may be possible that are unique to your environment.
+![Example 1 Edited Diagram](diagrams/Example-1-Edited-Diagram-2016-09-06.png)
 
-Diagram builder???
+In this sample case, shown in Figure X, we've selected that we are most concerned about lost data (red) with corrupted data (orange) being a close second.  While we prefer our data to be embargoed, it would not be the end of the world if it happened to get exposed (green).  Next we are assuming for our example that it's impossible to reproduce new data so the first Consequence from the reference diagram is removed, as well as the possibility of legal action.  However, we've decided that data exposure would result in another Consequence so we've added a custom one, "loss of control of result of publication," in blue.
 
-(side note: Corrupted Data could be both corrupted data you know about and corrupted data you don't know about.)...
+For your project, you'll repeat Step 3 for each identified Asset.  As you can see, by only looking at what Consequences are important to us as scientists, we are left with a mapping to possible Avenues of Attack.  This will make it easier to think about and discuss (with your stakeholders and IT/cyber security lead) what can be done to mitigate those Avenues of Attack, focusing on those that address your highest Concerns.  In addition, try to think about what other Avenues of Attack may be possible that are unique to your environment.
 
--   
-<! --<a name="#common-open-science-assets" / > -->
+(side note:  Corrupted Data could be both corrupted data you know about and corrupted data you don't know about.)... 
+   
+<!-- <a name="#common-open-science-assets" / > -->
 
 # Common Open Science Assets 
 
@@ -244,7 +238,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data.
 
--   [*Embargoed Data*](https://docs.google.com/document/d/1UU-Twbo33ekbxRI5GM6OCMArPlNnGweZkXNzY06cTlQ/edit): Open Science data that has not yet been publicly released.
+-   [*Embargoed Data*](assets/Data.html): Open Science data that has not yet been publicly released.
 
 -   Internal data: Data that is derived from the raw data and used to support published results, but that may not be made public. (Usually intermediate computational results.)
 
@@ -316,7 +310,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Intangible and Human Assets
 
--   [*Project Reputation*](assets/Project-Reputation.html): some text….
+-   [*Project Reputation*](assets/Project-Reputation.html): some text...
 
 -   Staff: People involved in the production, post-processing or management of assets
 
