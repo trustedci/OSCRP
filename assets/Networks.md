@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Networks
+permalink: assets/Networks.html
 ---
 
 # Networks

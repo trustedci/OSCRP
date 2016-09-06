@@ -1,8 +1,9 @@
 ---
 layout: default
 title: File Store
+permalink: assets/File%20Store.html
 ---
 
 # File Store
 
-{{ site.url }}../diagrams/File-store.png
+![File Store](../diagrams/File-store.png)

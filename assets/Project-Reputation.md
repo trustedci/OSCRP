@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Project Reputation
+permalink: assets/Project-Reputation.html
 ---
 
 # Project Reputation
 
-{{ site.url }}../diagrams/Project-Reputation.png
+![Project-Reputation](../diagrams/Project-Reputation.png)
