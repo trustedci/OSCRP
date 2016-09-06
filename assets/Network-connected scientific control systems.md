@@ -1,3 +1,8 @@
+---
+layout: default
+title: Network-connected scientific control systems
+---
+
 # Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)
 
-<img src="../diagrams/Cyber-Physical%20Control%20System.png" />
+{{ site.url }}../diagrams/Cyber-Physical%20Control%20System.png
