@@ -308,7 +308,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   Network-connected sensors (e.g., neutrino collectors)
 
--   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*]({{site.url}}/assets/Cyber-Physical%20Control%20System.html)
+-   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Cyber-Physical%20Control%20System.html)
 
 -   Network-connected building control systems that can impact scientific systems (e.g., HVAC)
 
