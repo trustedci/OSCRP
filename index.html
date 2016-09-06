@@ -1,92 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>OSCTP by trustedci</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-dark.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+---
+layout: default
+---
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/trustedci/OSCTP">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/trustedci/OSCTP/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/trustedci/OSCTP/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
+<div class="home">
 
-    <div class="wrapper">
+  <h1 class="page-heading">Posts</h1>
 
-      <section>
-        <div id="title">
-          <h1>OSCTP</h1>
-          <p>Open Science Cyberthreat Profile</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/trustedci">trustedci</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h1>
-<a id="open-science-cyberthreat-profile-osctp" class="anchor" href="#open-science-cyberthreat-profile-osctp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Open Science Cyberthreat Profile (OSCTP)</h1>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-<p>Welcome to OSCTP, a project of the <a href="http://trustedci.org">Center for Trustworthy Scientific Cyberinfrastructure</a>, the <a href="http://nsf.gov">NSF</a> Cybersecurity Center of Excellence.</p>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-<p>Over the course of the coming year, the OSCTP working group will develop a “threat profile for open science” and co-author a document describing that threat profile. The threat profile will be be a categorization of scientific assets and their common risks to science to greatly expedite risk management for open science projects and improve their cybersecurity.</p>
-
-<p>The working group threat profile is scoped to science projects that are “open,” that is unclassified. E.g. funded by <a href="http://nsf.gov">NSF</a>, <a href="http://science.energy.gov/ascr">DOE ASCR</a>, <a href="http://www.nih.gov">NIH</a>.  (They may be under limited-time scientific embargo, however, and may include PHI, such as with NIH research).</p>
-
-<p>We will take an asset/impact-oriented approach.  Explicitly, we are not concerned about threat actors or specific attack methods, but what assets open science projects have, what harms could befall those assets, and what the impacts from those harms would be to the project.</p>
-
-<p><em>“An asset/impact-oriented approach starts with the identification of impacts or consequences of concern and critical assets, possibly using the results of a mission or business impact analyses and identifying threat events that could lead to and/or threat sources that could seek those impacts or consequences.”</em></p>
-
-<p>For assets that are commodity IT or for which a risk profile already exists, this effort should reference that profile and not duplicate it, except where the “open science” aspect is in conflict with the existing risk profile.</p>
-
-<h2>
-<a id="what-is-an-asset" class="anchor" href="#what-is-an-asset" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What is an asset?</h2>
-
-<p>“Assets” are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.</p>
-
-<h2>
-<a id="working-group" class="anchor" href="#working-group" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Working Group</h2>
-
-<p>Ilkay Altintas, SDSC<br>
-RuthAnne Bevier, Caltech<br>
-James Cuff, Harvard<br>
-Rich LeDuc, Northwestern<br>
-Bertram Ludäscher, UIUC<br>
-Pascal Meunier, HUBzero<br>
-Reagan Moore, iRods<br>
-Steve Schwab, ISI<br>
-Karen Stocks, UCSD</p>
-
-<h2>
-<a id="organizers" class="anchor" href="#organizers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Organizers</h2>
-
-<p>Sean Peisert<br>
-Von Welch<br>
-Michael Dopheide<br>
-Andrew Adams</p>
-
-<h2>
-<a id="questions" class="anchor" href="#questions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Questions?</h2>
-
-<p>Contact us by emailing <a href="mailto:osctp@trustedci.org">osctp@trustedci.org</a>.</p>
-      </section>
-
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
-</html>
+</div>
