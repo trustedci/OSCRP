@@ -242,7 +242,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Data Assets
 
--   [*Public Data*](http://trustedci.github.io/OSCTP/assets/Public%20Data.html): Published generated or collected Open Science data.
+-   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data.
 
 -   [*Embargoed Data*](https://docs.google.com/document/d/1UU-Twbo33ekbxRI5GM6OCMArPlNnGweZkXNzY06cTlQ/edit): Open Science data that has not yet been publicly released.
 
@@ -272,7 +272,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   Mobile devices (tablets, smartphones, smartwatches)
 
--   [*Networks*](http://trustedci.github.io/OSCTP/assets/Networks.html): Medium used to access or transport data
+-   [*Networks*](assets/Networks.html): Medium used to access or transport data
 
 -   Facilities: Physical storage, power & climate control used to house assets
 
@@ -284,7 +284,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Software Assets
 
--   [*File-store*](http://trustedci.github.io/OSCTP/assets/File-store.html): System to archive data
+-   [*File-store*](assets/File-store.html): System to archive data
 
 -   Front-end: System to access archived data, usually web-based
 
@@ -316,7 +316,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Intangible and Human Assets
 
--   [*Project Reputation*](http://trustedci.github.io/OSCTP/assets/Project%20Reputation.html): some text….
+-   [*Project Reputation*](assets/Project%20Reputation.html): some text….
 
 -   Staff: People involved in the production, post-processing or management of assets
 

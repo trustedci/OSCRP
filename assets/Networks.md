@@ -5,4 +5,4 @@ title: Networks
 
 # Networks
 
-{{ site.url }}../diagrams/Data%20Network.png
+![Networks](../diagrams/Data%20Network.png)
