@@ -284,7 +284,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Software Assets
 
--   [*File-store*](assets/File-store.html): System to archive data
+-   [*File-store*](assets/File%20store.html): System to archive data
 
 -   Front-end: System to access archived data, usually web-based
 
@@ -316,7 +316,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Intangible and Human Assets
 
--   [*Project Reputation*](assets/Project%20Reputation.html): some text….
+-   [*Project Reputation*](assets/Project-Reputation.html): some text….
 
 -   Staff: People involved in the production, post-processing or management of assets
 
