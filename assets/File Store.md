@@ -1,3 +1,8 @@
+---
+layout: default
+title: File Store
+---
+
 # File Store
 
-<img src="../diagrams/File-store.png" />
+{{ site.url }}../diagrams/File-store.png

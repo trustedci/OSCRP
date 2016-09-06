@@ -1,3 +1,8 @@
+---
+layout: default
+title: Networks
+---
+
 # Networks
 
-<img src="../diagrams/Data%20Network.png" />
+{{ site.url }}../diagrams/Data%20Network.png

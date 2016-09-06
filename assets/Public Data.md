@@ -1,3 +1,8 @@
+---
+layout: default
+title: Public Data
+---
+
 # Public Data
 
-<img src="../diagrams/Public%20Data.png" />
+{{ site.url }}../diagrams/Public%20Data.png
