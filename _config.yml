@@ -17,7 +17,7 @@ title: Open Science Cyber Risk Profile
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
  Welcome to OSCTP, a project of the Center for Trustworthy Scientific  Cyberinfrastructure, the NSF Cybersecurity Center of Excellence.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/OSCTP" # the subpath of your site, e.g. /blog
 url: "http://trustedci.github.io/OSCTP/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
