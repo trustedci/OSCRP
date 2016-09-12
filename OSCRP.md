@@ -278,7 +278,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Software Assets
 
--   [*File-store*](assets/File%20store.html): System to archive data
+-   [*File-store*](assets/File%20Store.html): System to archive data
 
 -   Front-end: System to access archived data, usually web-based
 
