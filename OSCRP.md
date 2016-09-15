@@ -119,11 +119,9 @@ A group of very fast-moving intruders gained access to systems in Astronomy depa
 
 ### Targeted
 
-A politically controversial project (the building of a new large-scale telescope) was ojected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.
+A politically controversial project (the building of a new large-scale telescope) was subjected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.
 
-The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their
-
-words in private email messages were taken out of context), of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.
+The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their words in private email messages were taken out of context), of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.
 
 <!-- <a name="#how-to-use-this-document" / > -->
 
@@ -242,11 +240,11 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   Internal data: Data that is derived from the raw data and used to support published results, but that may not be made public. (Usually intermediate computational results.)
 
--   Documentation: Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of assets
+-   [*Documentation*](assets/Documentation.html): Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of assets
 
--   Accounting Information: Logs and databases recording the production, post-processing or management of assets
+-   [*Accounting Information](assets/AccountingInformation.html): Logs and databases recording the production, post-processing or management of assets
 
--   For Approved Access Only: Project/personnel data necessary for the Open Science mission.
+-   [*For Approved Access Only](assets/ForApprovedAccessOnly.html): Project/personnel data necessary for the Open Science mission.
 
 -   *Key Notes:*
 
