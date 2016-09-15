@@ -111,7 +111,7 @@ A vulnerability in the wiki software used by a microelectronics research lab was
 
 A physics lab and a materials science lab were affected by intrusions into the computers used to control sensitive lab equipment. The intruders gained access via Windows Remote Desktop, which was used heavily by lab members to remotely access these instruments. The intruders used these computers to hide their true location while engaging in social engineering fraud on dating websites. As part of an effort to avoid discovery, intruders deleted all data, including scientific data files, from one of the instrument controller computers. Research operations were disrupted and delayed while the computers were examined, rebuilt and hardened against future intrusions.  
 **Asset:** Network-connected scientific control system (instruments)  
-**Concern:** Unauthorized access  
+**Concern:** Data loss 
 **Consequences:** Lost science time and reduced reputation
 
 <!-- <a name="#possibly-targeted" / > -->
