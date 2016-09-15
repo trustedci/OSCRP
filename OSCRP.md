@@ -105,11 +105,18 @@ The point we emphasize in this document is that computer security-related conseq
 
 A vulnerability in the wiki software used by a microelectronics research lab was leveraged by attackers to host pornographic web pages on the wiki, and to send out a large volume of explicit pornographic email messages. The wiki was taken down by its administrators multiple times in an effort to find and remove the underlying exploit left in place by the attackers, which allowed them to continue abusing the site even after initial discovery. The downtime of this wiki, which was heavily used by the lab members and their many external collaborators, had a significant impact on research productivity.
 **Asset:** Documentation (wiki)
+
 **Concern:** Inaccessible
+
 **Consequence:** Lost science time (research)
 
 
 A physics lab and a materials science lab were affected by intrusions into the computers used to control sensitive lab equipment. The intruders gained access via Windows Remote Desktop, which was used heavily by lab members to remotely access these instruments. The intruders used these computers to hide their true location while engaging in social engineering fraud on dating websites. As part of an effort to avoid discovery, intruders deleted all data, including scientific data files, from one of the instrument controller computers. Research operations were disrupted and delayed while the computers were examined, rebuilt and hardened against future intrusions.
+**Asset:** Network-connected scientific control system (instruments)
+
+**Concern:** Unauthorized access
+
+**Consequences:** Lost science time and reduced reputation
 
 <!-- <a name="#possibly-targeted" / > -->
 
