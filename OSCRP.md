@@ -263,7 +263,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Facilities and Hardware Assets
 
--   Servers
+-   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other assets.
 
 -   Desktops
 
