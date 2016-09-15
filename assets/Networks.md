@@ -6,7 +6,7 @@ permalink: assets/Networks.html
 
 # Networks
 
-*Primary Asset Type:*  Data Networks
+*Asset Type:*  Data communication networks
 
 Any component of cyberinfrastructure used in transporting data from
 from onsite to a remote location.  This includes the physical medium,
