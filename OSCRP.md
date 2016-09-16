@@ -120,12 +120,12 @@ A physics lab and a materials science lab were affected by intrusions into the c
 
 A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers are used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while sysadmins and security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials.  
 **Asset:** Servers (compute clusters)  
-**Concern:** Devices inaccessible and devices exposing sensitive information  
+**Concerns:** Devices inaccessible and devices exposing sensitive information  
 **Consequences:** Inability to manipulate science data
 
 A group of very fast-moving intruders gained access to systems in Astronomy departments at numerous universities using techniques similar to the above. A core group of computers that were compromised and running Trojaned SSH binaries were associated with a research project being run from a physically remote location with poor network connectivity, and at the time the intrusion was discovered, ALL personnel directly familiar with the configuration and management of these systems were at that location, which greatly hampered investigation and recovery, and extended the period of down time for these systems. Most of the systems involved were run by scientists, not system administrators, who understandably prioritized science over system management and documentation. System names were reused several times, and in some cases servers back at the university had names that indicated a connection with the project, when in fact there was no current relationship with the project. Downtime, widespread credential changes, and general confusion all impacted the research project.  
-**Asset:** Servers and networks  
-**Concern:** Device inaccessible, devices exposing sensitive information and transport prevented  
+**Assets:** Servers and networks  
+**Concerns:** Device inaccessible, devices exposing sensitive information and transport prevented  
 **Consequences:** Inability to manipulate science data and delays in collaboration
 
 <!-- <a name="#targeted" / > -->
@@ -133,8 +133,8 @@ A group of very fast-moving intruders gained access to systems in Astronomy depa
 ### Targeted
 
 A politically controversial project (the building of a new large-scale telescope) was subjected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.  
-**Asset:** Servers and networks  
-**Concern:** Devices inaccessible and transport prevented  
+**Assets:** Servers and networks  
+**Concerns:** Devices inaccessible and transport prevented  
 **Consequences:** Inability to manipulate administration data and reduced reputation
 
 The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their words in private email messages were taken out of context), of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.  
@@ -267,7 +267,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   *Key Notes:*
 
-    -   *"data" includes both models as well as what we traditionally define as "data." Also, "data" can include also raw data and derived data*
+    -   *"data" includes both models as well as what we traditionally define as "data." Additionally, "data" can include raw data, derived data, configuration, accounting, personal or management data*
 
     -   *"assets" can be both "static" and also "dynamic" such as a program or workflow currently being executed*
 
