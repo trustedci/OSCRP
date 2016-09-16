@@ -241,17 +241,17 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Data Assets
 
--   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data.
+-   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data
 
--   [*Embargoed Data*](assets/Data.html): Open Science data that has not yet been publicly released.
+-   [*Embargoed Data*](assets/Data.html): Open Science data that has not yet been publicly released
 
--   Internal data: Data that is derived from the raw data and used to support published results, but that may not be made public. (Usually intermediate computational results.)
+-   [*Internal data*](assets/InternalData.html): Data that is derived from the raw data and used to support published results, but that may not be made public. (Usually intermediate computational results)
 
 -   [*Documentation*](assets/Documentation.html): Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of assets
 
 -   [*Accounting Information](assets/AccountingInformation.html): Logs and databases recording the production, post-processing or management of assets
 
--   [*For Approved Access Only](assets/ForApprovedAccessOnly.html): Project/personnel data necessary for the Open Science mission.
+-   [*For Approved Access Only](assets/ForApprovedAccessOnly.html): Project/personnel data necessary for the Open Science mission
 
 -   *Key Notes:*
 
@@ -263,17 +263,17 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Facilities and Hardware Assets
 
--   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other assets.
+-   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other assets
 
--   Desktops
+-   [*Desktops*](assets/Desktops.html): Systems used to access, store, produce and/or manipulate other assets
 
--   Laptops
+-   [*Laptops*](assets/Laptops.html): Systems used to access, store, produce and/or manipulate other assets
 
--   Mobile devices (tablets, smartphones, smartwatches)
+-   [*Mobile devices*](assets/MobileDevices.html): Systems used to access other assets (tablets, smartphones, smartwatches)
 
 -   [*Networks*](assets/Networks.html): Medium used to access or transport data
 
--   Facilities: Physical storage, power & climate control used to house assets
+-   [*Facilities*(assets/Facilities.html): Physical storage, power & climate control used to house assets
 
 -   Standard lab equipment
 
