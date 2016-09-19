@@ -357,3 +357,9 @@ For projects that need assistance, here are some resources to consider:
 
 [2] Sean Peisert et al.. "ASCR Cybersecurity for Scientific Computing Integrity," Technical Report LBNL- 6953E, U.S. Department of Energy Office of Science report, February 2015.
 
+# Contributing to this Document
+
+This document is hosting in GitHub to encourage the community to make contributions of new assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
+
+1. Point out a problem or make a suggestion by [creating a issue](https://github.com/trustedci/OSCTP/issues).
+2. Author changes or additions by [creating a fork and push your changes](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/).
