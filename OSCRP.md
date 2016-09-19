@@ -27,6 +27,7 @@ title: Open Science Cyber Risk Profile
 10. [Next Steps](#next-steps)
 11. [Conclusions](#conclusions)
 12. [Cybersecurity Resources for Open Science](#cybersecurity-resources-for-open-science)
+12. [Contributing to this Document](#contributing-to-this-document)
 
 
 <!--<a name="#authors" / >-->
