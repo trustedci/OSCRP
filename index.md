@@ -29,15 +29,25 @@ For assets that are commodity IT or for which a risk profile already exists, thi
 
 ## Working Group
 
-* Ilkay Altintas, SDSC
-* RuthAnne Bevier, Caltech
-* James Cuff, Harvard
-* Rich LeDuc, Northwestern
-* Bertram Ludäscher, UIUC
-* Pascal Meunier, HUBzero
-* Reagan Moore, iRods
-* Steve Schwab, ISI
-* Karen Stocks, UCSD
+*Core members:*  
+RuthAnne Bevier, Caltech  
+Rich LeDuc, Northwestern  
+Pascal Meunier, HUBzero  
+Steve Schwab, ISI   
+Karen Stocks, UCSD  
+
+*Contributing members:*  
+Ilkay Atlintas, SDSC  
+James Cuff, Harvard  
+Warren Raquel, NCSA/UIUC  
+Reagan Moore, iRods  
+
+## Organizers
+Sean Peisert  
+Von Welch  
+Andrew Adams
+Michael Dopheide  
+Susan Sons (former)
 
 ## Organizers
 

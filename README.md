@@ -15,22 +15,26 @@ For assets that are commodity IT or for which a risk profile already exists, thi
 “Assets” are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.
 
 ## Working Group
-Ilkay Atlintas, SDSC  
+
+*Core members:*  
 RuthAnne Bevier, Caltech  
-James Cuff, Harvard  
-Tim Minick, Gemini Observatory  
 Rich LeDuc, Northwestern  
-Bertram Ludäscher, UIUC   
 Pascal Meunier, HUBzero  
-Reagan Moore, iRods  
 Steve Schwab, ISI   
 Karen Stocks, UCSD  
+
+*Contributing members:*  
+Ilkay Atlintas, SDSC  
+James Cuff, Harvard  
+Warren Raquel, NCSA/UIUC  
+Reagan Moore, iRods  
 
 ## Organizers
 Sean Peisert  
 Von Welch  
+Andrew Adams
 Michael Dopheide  
-Susan Sons  
+Susan Sons (former)
 
 ## Questions?
 
