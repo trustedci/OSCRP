@@ -48,4 +48,4 @@ For assets that are commodity IT or for which a risk profile already exists, thi
 
 ## Questions?
 
-Contact us by emailing [osctp@trustedci.org](mailto:osctp@trustedci.org)</a>.
+Contact us by emailing [osctp@trustedci.org](mailto:osctp@trustedci.org)
