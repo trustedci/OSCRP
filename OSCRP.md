@@ -20,7 +20,8 @@ title: Open Science Cyber Risk Profile
 8. [Usage Example: Embargoed Data Case Study](#usage-example-embargoed Data-case-study)
 9. [Common Open Science Assets](#common-open-science-assets)
 	* [Data Assets](#data-assets)
-	* [Facilities and Hardware Assets](#facilities-and-hardware-assets)
+	* [Facilities Assets](#facilities-assets)
+	* [System and Hardware Assets](#system-and-hardware-assets)
 	* [Software Assets](#software-assets)
 	* [Instruments](#instruments)
 	* [Intangible and Human Assets](#intangible-and-human-assets)
@@ -258,7 +259,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Embargoed Data*](assets/Data.html): Open Science data that has not yet been publicly released
 
--   [*Internal data*](assets/InternalData.html): Data that is derived from the raw data and used to support published results, but that may not be made public. (Usually intermediate computational results)
+-   [*Internal data*](assets/InternalData.html): Data that is never intended to be published.  This includes: generated or derived data (usually intermediate computational results), e-mails or notes
 
 -   [*Documentation*](assets/Documentation.html): Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of assets
 
@@ -272,9 +273,29 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
     -   *"assets" can be both "static" and also "dynamic" such as a program or workflow currently being executed*
 
-<!-- <a name="#facilities-and-hardware-assets" / > -->
+<!-- <a name="#facilities-assets" / > -->
 
-## Facilities and Hardware Assets
+## Facilities Assets
+
+-   [*Facilities*](assets/Facilities.html): Physical storage, power & climate control used to house assets
+
+-   Standard lab equipment
+
+-   Staff computing & networking: Desktop, laptop, smartphones and the infrastructure leveraged by staff to access assets
+
+<!-- <a name="#system-and-hardware-assets" / > -->
+
+## System and Hardware Assets
+
+-   [*Networks*](assets/Networks.html): Infrastructure used to access or transport data
+
+-   [*File-store*](assets/File%20Store.html): System to archive data
+
+-   [*Front-end*](assets/Front-end.html): System to access archived data, usually web-based
+
+-   [*Back-end*](assets/Back-end.html): System to search data, usually a database or source repository
+
+-   [*User portal*](assets/User-portal.html): System enabling users to initiate production or post-processing of data
 
 -   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other assets
 
@@ -284,35 +305,19 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Mobile devices*](assets/MobileDevices.html): Systems used to access other assets (tablets, smartphones, smartwatches)
 
--   [*Networks*](assets/Networks.html): Medium used to access or transport data
-
--   [*Facilities*](assets/Facilities.html): Physical storage, power & climate control used to house assets
-
--   Standard lab equipment
-
--   Staff computing & networking: Desktop, laptop, smartphones and the infrastructure leveraged by staff to access assets
-
 <!-- <a name="#software-assets" / > -->
 
 ## Software Assets
 
--   [*File-store*](assets/File%20Store.html): System to archive data
+-   [*3rd Party*](assets/Third-party-software.html): External applications, e.g., computation / analysis
 
--   Front-end: System to access archived data, usually web-based
-
--   Back-end: System to search data, usually a database or source repository
-
--   User portal: System to initiate production or post-processing of data
-
--   Computation / analysis:
-
--   Middleware: ???
-
--   Internal software:
+-   [*Internal software*](assets/Internal-software.html): Applications produced internally, can include:
 
     -   Restricted software ("secret sauce" - competitive/intellectual property)
 
     -   Non-restricted software developed and used by the organization
+
+-   Middleware: ???
 
 <!-- <a name="#instruments" / > -->
 
