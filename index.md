@@ -1,11 +1,15 @@
 ---
 layout: default
-title: Open Science Cyber Risk Profile Homepage
+title: Open Science Cyber Threat Profile Homepage
 ---
 
-# OSCTP
+# OSCTP: The Open Science Cyber Threat Profile
 
-Open Science Cyber Threat Profile
+## Our Product: The Open Science Risk Profile
+
+* [The Open Science Cyber Risk Profile](OSCRP.html)
+
+## About OSCTP
 
 Welcome to OSCTP, a project of the [Center for Trustworthy Scientific Cyberinfrastructure](http://trustedci.org), the [NSF](http://nsf.gov) Cybersecurity Center of Excellence.
 
