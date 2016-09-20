@@ -32,7 +32,7 @@ Reagan Moore, iRods
 ## Organizers
 Sean Peisert  
 Von Welch  
-Andrew Adams
+Andrew Adams  
 Michael Dopheide  
 Susan Sons (former)
 
