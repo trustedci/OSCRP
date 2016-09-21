@@ -295,7 +295,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Back-end*](assets/Back-end.html): System to search data, usually a database or source repository
 
--   [*User portal*](assets/User-portal.html): System enabling users to initiate production or post-processing of data
+-   [*User Portal*](assets/User-portal.html): System enabling users to initiate production or post-processing of data
 
 -   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other assets
 
