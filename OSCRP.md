@@ -112,7 +112,7 @@ A vulnerability in the wiki software used by a microelectronics research lab was
 
 
 A physics lab and a materials science lab were affected by intrusions into the computers used to control sensitive lab equipment. The intruders gained access via Windows Remote Desktop, which was used heavily by lab members to remotely access these instruments. The intruders used these computers to hide their true location while engaging in social engineering fraud on dating websites. As part of an effort to avoid discovery, intruders deleted all data, including scientific data files, from one of the instrument controller computers. Research operations were disrupted and delayed while the computers were examined, rebuilt and hardened against future intrusions.  
-**Asset:** Network-connected scientific control system (instruments)  
+**Asset:** Network-connected scientific control systems (instruments)  
 **Concern:** Data loss  
 **Consequences:** Lost science time and reduced reputation
 
@@ -126,7 +126,7 @@ A group of hackers gained access to a vulnerable scientific computing cluster at
 **Consequences:** Inability to manipulate science data
 
 A group of very fast-moving intruders gained access to systems in Astronomy departments at numerous universities using techniques similar to the above. A core group of computers that were compromised and running Trojaned SSH binaries were associated with a research project being run from a physically remote location with poor network connectivity, and at the time the intrusion was discovered, ALL personnel directly familiar with the configuration and management of these systems were at that location, which greatly hampered investigation and recovery, and extended the period of down time for these systems. Most of the systems involved were run by scientists, not system administrators, who understandably prioritized science over system management and documentation. System names were reused several times, and in some cases servers back at the university had names that indicated a connection with the project, when in fact there was no current relationship with the project. Downtime, widespread credential changes, and general confusion all impacted the research project.  
-**Assets:** Servers and networks  
+**Assets:** Staff computing & networking and networks  
 **Concerns:** Device inaccessible, devices exposing sensitive information and transport prevented  
 **Consequences:** Inability to manipulate science data and delays in collaboration
 
@@ -135,7 +135,7 @@ A group of very fast-moving intruders gained access to systems in Astronomy depa
 ### Targeted
 
 A politically controversial project (the building of a new large-scale telescope) was subjected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.  
-**Assets:** Servers and networks  
+**Assets:** Servers (mail) and networks  
 **Concerns:** Devices inaccessible and transport prevented  
 **Consequences:** Inability to manipulate administration data and reduced reputation
 
@@ -281,7 +281,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   Standard lab equipment
 
--   Staff computing & networking: Desktop, laptop, smartphones and the infrastructure leveraged by staff to access assets
+-   [*Staff computing & networking*](assets/Institution-systems.html): Institutional systems used by staff to access assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage
 
 <!-- <a name="#system-and-hardware-assets" / > -->
 
@@ -323,7 +323,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Instruments
 
--   Network-connected sensors (e.g., neutrino collectors)
+-   [*Sensors*](assets/Sensors.html): Sensor instruments (e.g., network-connected neutrino collectors)
 
 -   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Cyber-Physical%20Control%20System.html)
 
