@@ -241,9 +241,11 @@ From this diagram, select the Concerns and Consequences that are most relevant t
 
 In this sample case, we've selected that we are most concerned about lost data (red) with corrupted data (orange) being a close second.  While we prefer our data to be embargoed, it would not be the end of the world if it happened to get exposed (green).  Next we are assuming for our example that it's impossible to reproduce new data so the first Consequence from the reference diagram is removed, as well as the possibility of legal action.  However, we've decided that data exposure would result in another Consequence so we've added a custom one, "loss of control of result of publication," in blue.
 
-For your project, you'll repeat Step 3 for each identified Asset.  As you can see, by only looking at what Consequences are important to us as scientists, we are left with a mapping to possible Avenues of Attack.  This will make it easier to think about and discuss (with your stakeholders and IT/cyber security lead) what can be done to mitigate those Avenues of Attack, focusing on those that address your highest Concerns.  In addition, try to think about what other Avenues of Attack may be possible that are unique to your environment.
+For your project, you'll repeat Step 3 for each identified Asset.  As you can see, by only looking at what Consequences are important to us as scientists, we are left with a mapping to possible Avenues of Attack.  In this case, the Avenues of Attack lead to other identified Assets which we need to go take a look at.  This will make it easier to think about and discuss (with your stakeholders and IT/cyber security lead) what can be done to mitigate those Avenues of Attack, focusing on those that address your highest Concerns.  In addition, try to think about what other Avenues of Attack may be possible that are unique to your environment.
 
+<!--
 (side note:  Corrupted Data could be both corrupted data you know about and corrupted data you don't know about.)... 
+-->
    
 <!-- <a name="#common-open-science-assets" / > -->
 
