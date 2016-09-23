@@ -241,7 +241,28 @@ From this diagram, select the Concerns and Consequences that are most relevant t
 
 In this sample case, we've selected that we are most concerned about lost data (red) with corrupted data (orange) being a close second.  While we prefer our data to be embargoed, it would not be the end of the world if it happened to get exposed (green).  Next we are assuming for our example that it's impossible to reproduce new data so the first Consequence from the reference diagram is removed, as well as the possibility of legal action.  However, we've decided that data exposure would result in another Consequence so we've added a custom one, "loss of control of result of publication," in blue.
 
-For your project, you'll repeat Step 3 for each identified Asset.  As you can see, by only looking at what Consequences are important to us as scientists, we are left with a mapping to possible Avenues of Attack.  In this case, the Avenues of Attack lead to other identified Assets which we need to go take a look at.  This will make it easier to think about and discuss (with your stakeholders and IT/cyber security lead) what can be done to mitigate those Avenues of Attack, focusing on those that address your highest Concerns.  In addition, try to think about what other Avenues of Attack may be possible that are unique to your environment.
+We see in the diagram that the Avenues of Attack for embargoed data
+reference other Assets that are the likely cause of a problem.  This
+may help identify more Assets that we hadn't previously
+considered.  Let's follow one of those paths to see where it leads.
+On the bottom right, we see the Servers assets could lead to
+exposed data, so we pull up the Servers asset diagram:
+
+![Example 1 Facilities](diagrams/Servers.png)
+
+Looking at the Servers asset we are presented with several more
+Concerns and Avenues of Attack.  As you can see, by starting with our
+Concerns about data and the possible Consequences we care about as
+scientists, we are able to follow the diagrams and end up with a
+mapping to possible Avenues of Attack.
+
+For your project, you'll repeat Step 3 for each identified Asset. This
+will make it easier to think about and discuss (with
+your stakeholders and IT/cyber security lead) what can be done to
+mitigate those Avenues of Attack, focusing on those that address your
+highest Concerns.  In addition, try to think about what other Avenues
+of Attack may be possible that are unique to your environment.
+
 
 <!--
 (side note:  Corrupted Data could be both corrupted data you know about and corrupted data you don't know about.)... 
