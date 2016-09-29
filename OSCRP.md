@@ -137,7 +137,7 @@ A group of very fast-moving intruders gained access to systems in Astronomy depa
 A politically controversial project (the building of a new large-scale telescope) was subjected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.  
 **Assets:** Servers (mail) and networks  
 **Concerns:** Devices inaccessible and transport prevented  
-**Consequences:** Inability to manipulate administration data and reduced reputation
+**Consequences:** Lost science time and reduced reputation
 
 The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their words in private email messages were taken out of context), of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.  
 **Asset:** Internal data  
@@ -277,7 +277,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 <!-- <a name="#data-assets" / > -->
 
 ## Data Assets
-  * "Data" includes what we traditionally define as "data", i.e., raw data, derived data, as well as configuration, accounting, personal or management data
+###### "Data" includes what we traditionally define as "data", i.e., raw data, derived data, as well as configuration, accounting, personal or management data.
 
 -   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data
 
@@ -350,11 +350,11 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Intangible and Human Assets
 
--   [*Project Reputation*](assets/Project-Reputation.html): some text...
+-   [*Project Reputation*](assets/Project-Reputation.html): Credibility associated with an organization
 
--   Staff: People involved in the production, post-processing or management of assets
+-   [*Staff*](assets/Staff.html): People involved in the production, post-processing or management of assets
 
--   Collaboration: Meetings and agendas used by staff to coordinate the production, post-processing or management of assets
+-   [*Collaboration*](assets/Collaboration.html): Meetings and agendas used by staff to coordinate the production, post-processing or management of assets
 
 <!--<a name="#next-steps" / > -->
 
