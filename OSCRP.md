@@ -275,9 +275,9 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Facilities*](assets/Facilities.html): Physical storage, power & climate control used to house assets
 
--   Standard lab equipment
+<!--  Standard lab equipment-->
 
--   [*Staff computing & networking*](assets/Institution-systems.html): Institutional systems used by staff to access assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage
+-   [*Staff computing & networking*](assets/Institution-systems.html): Institutional systems used by staff to access assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage (also mailing lists, calendars)
 
 <!-- <a name="#system-and-hardware-assets" / > -->
 
@@ -313,7 +313,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
     -   Non-restricted software developed and used by the organization
 
--   Middleware: ???
+<!-- -   Middleware: ??? -->
 
 <!-- <a name="#instruments" / > -->
 
@@ -322,8 +322,6 @@ In this section we list common Open Science Assets and provide a diagram for eac
 -   [*Sensors*](assets/Sensors.html): Sensor instruments (e.g., network-connected neutrino collectors)
 
 -   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Cyber-Physical%20Control%20System.html)
-
--   Network-connected building control systems that can impact scientific systems (e.g., HVAC)
 
 <!-- <a name="#intangible-and-human-assets" / > -->
 
