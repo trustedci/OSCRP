@@ -277,7 +277,8 @@ In this section we list common Open Science Assets and provide a diagram for eac
 <!-- <a name="#data-assets" / > -->
 
 ## Data Assets
-###### "Data" includes what we traditionally define as "data", i.e., raw data, derived data, as well as configuration, accounting, personal or management data.
+
+###### Data includes what we traditionally define as "data", i.e., raw data, derived data, as well as configuration, accounting, personal or management data.
 
 -   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data
 
@@ -301,6 +302,8 @@ In this section we list common Open Science Assets and provide a diagram for eac
 <!--  Standard lab equipment-->
 
 -   [*Staff computing & networking*](assets/Institution-systems.html): Institutional systems used by staff to access assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage (also mailing lists, calendars)
+
+    - Note, the **risk** associated with this assets is absorbed by the institution that owns them, not the project, but it is useful for the project to understand the greater risks involved 
 
 <!-- <a name="#system-and-hardware-assets" / > -->
 
