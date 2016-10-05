@@ -278,7 +278,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Data Assets
 
-###### **Data** includes what we traditionally define as "data", i.e., raw data, derived data, as well as configuration, accounting, personal or management data.
+###### **Data** includes what we traditionally define as "data", i.e., raw data, derived data, as well as algorithms, protocols, configuration, accounting, personal or management data.
 
 -   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data
 
@@ -358,6 +358,8 @@ In this section we list common Open Science Assets and provide a diagram for eac
 -   [*Staff*](assets/Staff.html): People involved in the production, post-processing or management of assets
 
 -   [*Collaboration*](assets/Collaboration.html): Meetings and agendas used by staff to coordinate the production, post-processing or management of assets
+
+-   [*Workflow](assets/Workflow.html): The process or protocols by which science is achieved within a project.
 
 <!--<a name="#next-steps" / > -->
 
