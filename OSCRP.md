@@ -359,7 +359,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Collaboration*](assets/Collaboration.html): Meetings and agendas used by staff to coordinate the production, post-processing or management of assets
 
--   [*Workflow](assets/Workflow.html): The process or protocols by which science is achieved within a project.
+-   [*Workflow*](assets/Workflow.html): The process or protocols by which science is achieved within a project.
 
 <!--<a name="#next-steps" / > -->
 
