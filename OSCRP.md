@@ -75,9 +75,9 @@ Believe it or not, science --- even "open," unclassified science is vulnerable a
 
 Sometimes, that science is specifically targeted by attackers who are interested in doing nothing more than causing a little mayhem on the side.
 
-At other times, attackers --- perhaps even scientific competitors --- may be interested in seeing data before it is publicly released. Attackers might even be interested in tainting the results of experiments, too. Finally, there may well be times when computing systems related to science projects are the innocent bystanders who are nonetheless the victims of "malware" that is simply ever-present on the Internet.
+At other times, attackers --- perhaps even scientific competitors --- may be interested in seeing data before it is publicly released. Attackers might even be interested in tainting the results of experiments. Finally, there may well be times when computing systems related to science projects are the innocent bystanders who are nonetheless the victims of "malware" that is simply ever-present on the Internet.
 
-We assert that something on the order of 80% of "good computer security" results from basic "computer hygiene," such as having multiple, backups including some off-site, keeping systems "patched" and up to date, and limiting access controls as much as possible. This document does not cover basic computer hygiene or system administration. This document is intended to cover the *other* 20% that basic hygiene and administration *do not* cover well.
+We assert that something on the order of 80% of "good computer security" results from basic "computer hygiene," such as having multiple backups including some off-site, keeping systems "patched" and up to date, and limiting access controls as much as possible. This document does not cover basic computer hygiene or system administration. This document is intended to cover the *other* 20% that basic hygiene and administration *do not* cover well.
 
 <!--<a name="#bad-things-can-happen-to-good-science" / >-->
 
