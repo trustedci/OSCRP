@@ -120,7 +120,7 @@ A physics lab and a materials science lab were affected by intrusions into the c
 
 ### Possibly targeted
 
-A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers are used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while sysadmins and security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials.  
+A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers are used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while system admininstrators and security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials.  
 **Asset:** Servers (compute clusters)  
 **Concerns:** Devices inaccessible and devices exposing sensitive information  
 **Consequences:** Lost science time
@@ -139,7 +139,7 @@ A politically controversial project (the building of a new large-scale telescope
 **Concerns:** Devices inaccessible and transport prevented  
 **Consequences:** Lost science time and reduced reputation
 
-The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their words in private email messages were taken out of context), of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.  
+The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their words in private email messages were taken out of context) of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.  
 **Asset:** Internal data  
 **Concern:** Data exposed  
 **Consequences:** Reduced reputation and legal action
@@ -156,19 +156,19 @@ The following are the intended steps for using this document. The expectation is
 
 *Intended Steps to Use this Document*
 
-1.  Identify the "stakeholders" of the science project --- at the very least, this includes the principal investigator(s) and science team; other researchers, including possible external users; the institution that "owns" the science instrument, the project, and the "mission" it supports; and possibly human subjects of the science project.
+1.  Identify the stakeholders of the science project --- at the very least, this includes the principal investigator(s) and science team; other researchers, including possible external users; the institution that owns or manages the science instrument, the project, and the mission it supports; and possibly human subjects of the science project.
 
-2.  Create an asset inventory for the project by looking through the list of common assets in the "Common Open Science Assets" section, and identifying all the assets relevant to the open science project.
+2.  Create an asset inventory for the project by looking through the list in the "Common Open Science Assets" section, and identifying all the assets relevant to the open science project.
 
-3.  For each "mission critical" science asset, examine the Concerns, Consequences, and Avenues of Attack diagram associated with the asset and note which concerns and consequences are relevant to the project, and the extent to which they are relevant
+3.  For each mission critical science asset, examine the Concerns, Consequences, and Avenues of Attack diagram associated with the asset and note which concerns and consequences are relevant to the project, and the extent to which they are relevant
 
 4.  For each relevant concern note the vectors that could cause the concern to be realized.
 
-5.  **While *mitigations* are outside the scope of this document, the process of identifying key assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
+**While *mitigations* are outside the scope of this document, the process of identifying key assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
 
-6.  Work with IT professionals to Implement agreed upon controls or some other means of mitigating risk.
+5.  Work with IT professionals to agree on and implement agreed controls or other means of mitigating risk.
 
-7.  Incorporate an annual refresh of this process into the project's activity cycle. Specifically considering if a project's assets have change, or the potential impact of the risks to the project has changed in such a way the project's risk profile may have changed.
+6.  Incorporate an annual refresh of this process into the project's activity cycle. Specifically considering if a project's assets have change, or the potential impact of the risks to the project has changed in such a way the project's risk profile may have changed.
 
 <!-- <a name="#definitions-of-terms" / > -->
 
