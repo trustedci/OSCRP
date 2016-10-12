@@ -43,7 +43,7 @@ For the lastest version and more information about the group, please see [*http:
 
 ## Executive Summary
 
-While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many others sectors such as finance, medical, etc., it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to aid Principal Investigators and their supporting IT professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For example, for those utilizing the CTSC Cybersecurity Program Guide,[1] this should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
+While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many others sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to aid Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For those utilizing the CTSC Cybersecurity Program Guide,[1] this should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
 
 This document achieves these goals by providing a list of information assets common to open science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those assets, with a list of concerns and consequences. The document describes how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
 
@@ -51,7 +51,7 @@ Other goals of the document include:
 
 -   Allowing projects to understand the risks associated with their science data so those risks can be addressed in Data Management Plans
 
--   Allowing NSF projects to address the relevant portion of their responsibilities in the [*NSF CA T&C for Large Facilities*](http://www.nsf.gov/pubs/policydocs/cafatc/cafatc_lf116.pdf) and [*Large Facilities Manual*](https://www.nsf.gov/publications/pub_summ.jsp?ods_key=lfm)
+-   Allowing NSF projects to address the relevant portion of their responsibilities in the [*NSF Cooperative Agreement Terms & Cconditions for Large Facilities*](http://www.nsf.gov/pubs/policydocs/cafatc/cafatc_lf116.pdf) and [*Large Facilities Manual*](https://www.nsf.gov/publications/pub_summ.jsp?ods_key=lfm)
 
 <!-- <a name="#who-this-document-is-intended-for" / > -->
 
