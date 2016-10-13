@@ -7,7 +7,7 @@ title: Open Science Cyber Risk Profile
 
 ## Table of Contents
 1. [Authors](#authors)
-2. [Executive Summary](#executive-summary)
+2. [Overview and Goals](#overview-and-goals)
 3. [Who This Document is Intended For](#who-this-document-is-intended-for)
 4. [Introduction](#introduction)
 5. [Bad Things Can Happen to Good Science](#bad-things-can-happen-to-good-science)
@@ -41,7 +41,7 @@ For the lastest version and more information about the group, please see [*http:
 
 <!--<a name="#executive-summary" / >-->
 
-## Executive Summary
+## Overview and Goals
 
 While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
 
