@@ -43,7 +43,7 @@ For the lastest version and more information about the group, please see [*http:
 
 ## Executive Summary
 
-While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to aid Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For those utilizing the CTSC Cybersecurity Program Guide,[1] this should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
+While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to aid Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), this should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
 
 This document achieves these goals by providing a list of information assets common to open science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those assets, with a list of concerns and consequences. The document describes how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
 
@@ -87,7 +87,7 @@ There are numerous examples of open science projects being affected by attacks o
 
 Computing systems of all kinds can fail due to accident, error, natural events, or due to malicious tampering. Consequences of computing system failure due to malicious tampering have historically been organized into three categories: confidentiality, integrity, and availability. Failures in open science projects relating to each of those categories can have significant impact on those projects being able to fulfill their mission.
 
-The United States funds billions of dollars of scientific research each year. Regarding scientific integrity, "Much of that research has results that are purely scientific, while some of the research findings, including those from computational results, can also inform national policy decisions. ... Even for the basic science, since U.S. taxpayer dollars fund a large cadre of the nation's top scientists to do research, it is vital that the results can ultimately be trusted."[2]
+The United States funds billions of dollars of scientific research each year. Regarding scientific integrity, "Much of that research has results that are purely scientific, while some of the research findings, including those from computational results, can also inform national policy decisions. ... Even for the basic science, since U.S. taxpayer dollars fund a large cadre of the nation's top scientists to do research, it is vital that the results can ultimately be trusted." (from Sean Peisert et al.. "[ASCR Cybersecurity for Scientific Computing Integrity](https://crd.lbl.gov/assets/Uploads/Final-ASCR-Cybersecurity-ReportR7.pdf)," Technical Report LBNL- 6953E, U.S. Department of Energy Office of Science report, February 2015.)
 
 Aside from integrity, while some "open science" is done entirely in the open, suppose certain results were released before they were intended for publication? The results could range from embarrassment to intellectual property theft to violation of the terms of scientific embargoes. And, even "open" projects generally have restricted data, such as personally identifiable information that Federal regulations prohibit exposing. Perhaps more important to the institution is who is accountable when something goes wrong.
 
@@ -383,9 +383,7 @@ For projects that need assistance, here are some resources to consider:
 -   The NSF Cybersecurity Center of Excellence: [*http://trustedci.org/help/*](http://trustedci.org/help/)
 -   [The EDUCAUSE IT Risk Register](https://library.educause.edu/resources/2015/10/it-risk-register)
 
-[1] [*http://trustedci.org/guide/*](http://trustedci.org/guide/), Section 1.2
 
-[2] Sean Peisert et al.. "ASCR Cybersecurity for Scientific Computing Integrity," Technical Report LBNL- 6953E, U.S. Department of Energy Office of Science report, February 2015.
 
 # Contributing to this Document
 
