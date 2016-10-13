@@ -63,7 +63,7 @@ Not every scientific research project involving computing has a dedicated or eve
 
 A secondary audience for this document is institutional IT professionals (e.g., CIOs, CISOs). While we do not anticipate that institutional IT professionals will necessarily use this document directly, we expect that it may be useful for institutional IT professionals to provide to PIs and research IT professionals within their organization.
 
-We do make the assumption that the institution where open science takes place has some kind of security professional at some level, regardless of whether that person is directly attached to the science project or is at the institutional level.
+We do make the assumption that the institution where open science takes place has some kind of security professional at some level,  in addition to a define or de facto IT person, regardless of whether that person is directly attached to the science project or is at the institutional level.
 
 <!-- <a name="#introduction" / >-->
 
