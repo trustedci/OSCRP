@@ -51,7 +51,7 @@ Other goals of the document include:
 
 -   Allowing projects to understand the risks associated with their science data so those risks can be addressed in Data Management Plans
 
--   Allowing NSF projects to address the relevant portion of their responsibilities in the [*NSF Cooperative Agreement Terms & Cconditions for Large Facilities*](http://www.nsf.gov/pubs/policydocs/cafatc/cafatc_lf116.pdf) and [*Large Facilities Manual*](https://www.nsf.gov/publications/pub_summ.jsp?ods_key=lfm)
+-   Allowing NSF projects to address the relevant portion of their responsibilities in the [*NSF Cooperative Agreement Terms & Conditions for Large Facilities*](http://www.nsf.gov/pubs/policydocs/cafatc/cafatc_lf116.pdf) and [*Large Facilities Manual*](https://www.nsf.gov/publications/pub_summ.jsp?ods_key=lfm)
 
 <!-- <a name="#who-this-document-is-intended-for" / > -->
 
