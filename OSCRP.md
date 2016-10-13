@@ -174,19 +174,19 @@ The following are the intended steps for using this document. The expectation is
 
 # Definitions of Terms
 
-The following terms are used by the OSCTP with particular meaning as given.
+The following terms are used in this document.
 
--   *Open Science Project*: A project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. This research typically takes place at universities, government labs, and some non-profit research organizations. "Open science" may have some data that is not public (e.g., personal health information) or transitorily private private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
+-   *Open Science Project*: a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. This research typically takes place at universities, government labs, and some non-profit research organizations. Open science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
 
 -   *Asset*: "Assets" are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.
 
 -   *Project Mission*: what the project is intended to do. This implicitly or explicitly defines what kind of changes (e.g., due to attack) are considered negative.
 
--   *Concern*: A potential negative change to an Asset that impacts the mission of the project. A threat does not consider the source of the change. For example, the severing of a transatlantic networking link by whatever means would be a negative change that could hamper a project's mission to deliver data to its community and hence for that community to conduct science.
+-   *Concern*: A potential negative change to an Asset that impacts the mission of the project. A concern does not consider the source of the change. For example, the severing of a transatlantic networking link by whatever means would be a negative change that could hamper a project's mission to deliver data to its community and hence for that community to conduct science.
 
-    -   Synonym for *Threat* in cybersecurity nomenclature.
+    -   Synonym for *Threat*.
 
-    -   A Concern can also be thought of as a risk but without a measure of likelihood. However, in this document, we do not attempt to address likelihood. Therefore, we use the terms "risk" and "concern" in this document interchangeably.
+    -   A Concern can also be thought of as a risk but without a measure of likelihood. However, in this document, we do not attempt to address likelihood. Therefore, we use the terms "risk" and "concern" interchangeably.
 
     -   Concerns are often expressible using:
 
@@ -212,9 +212,9 @@ The following terms are used by the OSCTP with particular meaning as given.
 
 # Usage Example: Embargoed Data Case Study
 
-For this example we'll pretend we are the PI for a small science project that has a couple telescopes tracking changes in the night sky over time.  In *Step 1* of the process flow, we identify the stakeholders as our immediate project team, a collaborating research team, and the institutions that house the two telescopes.  The stakeholders may be brought in to help with the remaining steps as well as to discuss the results.
+To demonstrate how to carry out the risk profile steps, we'll pretend we are the PI for a small science project that has two telescopes tracking changes in the night sky over time.  In *Step 1* of the process flow, we identify the stakeholders as our immediate project team, a collaborating research team, and the institutions that house the two telescopes.  The stakeholders may be brought in to help with the remaining steps as well as to discuss the results.
 
-With the stakeholders identified, we proceed with *Step 2* by going through the Asset Catalogue below and selecting Assets that are relevant to our project.  As we select our Assets, we'll also include brief descriptions of the precise project Asset we're referring to.
+In *Step 2* we go through the Asset Catalogue below and select Assets relevant to our project.  As we select our Assets, we include brief descriptions of the precise project Asset we're referring to.
 
 We believe the following Assets apply to our project:
 
@@ -230,7 +230,7 @@ We believe the following Assets apply to our project:
 
 While we've tried to be comprehensive, please don't hesitate to identify your own assets that may not be covered by our examples.
 
-*Step 3* begins after the Assets have been identified.   To continue the process for this example exercise, we'll select just one of our assets: "Embargoed Data," which has the following Consequences, Concerns and Avenues of Attack diagram:
+*Step 3* begins after the Assets have been identified.  For this example, we select just one of our assets --- Embargoed Data --- and examone its Consequences, Concerns and Avenues of Attack diagram:
 
 
 ![Example 1 Base Diagram](diagrams/Embargoed_Data.png)
