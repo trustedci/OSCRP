@@ -8,6 +8,6 @@ permalink: assets/Workflow.html
 
 *Asset Type:*  Intangible & Human
 
-The process by which science ia achived within a project.
+The process by which science ia achieved within a project.
 
 ![Workflow](../diagrams/Workflow.png)
