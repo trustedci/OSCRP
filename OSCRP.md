@@ -381,6 +381,7 @@ Open Science, despite having a culture of public data and open collaboration, st
 For projects that need assistance, here are some resources to consider:
 
 -   The NSF Cybersecurity Center of Excellence: [*http://trustedci.org/help/*](http://trustedci.org/help/)
+-   [The EDUCAUSE IT Risk Register](https://library.educause.edu/resources/2015/10/it-risk-register)
 
 [1] [*http://trustedci.org/guide/*](http://trustedci.org/guide/), Section 1.2
 
