@@ -59,9 +59,9 @@ Other goals of the document include:
 
 The primary audience of this document is intended to be principal investigators (PIs) of "open science" projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc...), as well as information technology professionals involved in scientific research projects. Open science is defined here as "a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations."
 
-Not every scientific research project involving computing has a dedicated or even designated "information technology professional" involved. However, we make the assumption that even such projects typically have a *de facto* IT person. That person may be at the "institutional level" and therefore be almost entirely disconnected from the scientific project, and perhaps even completely unaware of it. In those cases, one of the purposes for this document is to enable PIs to help engage with institutional IT professionals to discuss risks.
+Not every scientific research project has a dedicated or even designated "information technology professional" involved. However, we make the assumption that even such projects typically have a *de facto* IT person. That person may be at the "institutional level" and therefore be almost entirely disconnected from the scientific project, and perhaps even completely unaware of it. In those cases, one of the purposes for this document is to enable PIs to help engage with institutional IT professionals to discuss risks.
 
-A secondary audience for this document is institutional IT professionals (e.g., CIOs, CISOs). While we do not anticipate that institutional IT professionals will necessarily use this document directly, we expect that it may be useful for institutional IT professionals to provide to PIs and research IT professionals within their organization.
+A secondary audience for this document is institutional IT professionals (e.g., CIOs, CISOs). While we do not anticipate that institutional IT professionals will necessarily use this document directly, we expect that it may be a useful reference for institutional IT professionals to provide to PIs and research IT professionals within their organization.
 
 We do make the assumption that the institution where open science takes place has some kind of security professional at some level,  in addition to a defined or de facto IT person, regardless of whether that person is directly attached to the science project or is at the institutional level.
 
@@ -71,11 +71,11 @@ We do make the assumption that the institution where open science takes place ha
 
 We read stories daily about computer security incidents. Home Depot. Sony. The U.S. Office of Personnel Management. Hospitals getting hit by ransomware. All of those organizations take security seriously, but are still vulnerable.
 
-Believe it or not, science --- even "open," unclassified science is vulnerable as well. And indeed, "open science" can at times be particularly vulnerable because "open science" is often so exposed, because by nature there tends to be significant sharing of data, resources, and/or results.
+Believe it or not, science --- even "open," unclassified science is vulnerable as well. And indeed, "open science" can at times be particularly vulnerable because "open science" is often so exposed, since by nature there tends to be significant sharing of data, resources, and/or results.
 
-Sometimes, that science is specifically targeted by attackers who are interested in doing nothing more than causing a little mayhem on the side.
+Sometimes, that science is specifically targeted by attackers whose goal is disruption, possibly for political reasons or even simple mischief-making.
 
-At other times, attackers --- perhaps even scientific competitors --- may be interested in seeing data before it is publicly released. Attackers might even be interested in tainting the results of experiments. Finally, there may well be times when computing systems related to science projects are the innocent bystanders who are nonetheless the victims of "malware" that is simply ever-present on the Internet.
+At other times, attackers --- perhaps even scientific competitors --- may be interested in seeing data before it is publicly released. Attackers might even be interested in tainting the results of experiments. Finally, computing systems related to science projects can suffer a disruptive security incident without being specifically targeted by an attacker at all, simply by being present on a network, and exploitable.
 
 We assert that something on the order of 80% of "good computer security" results from basic "computer hygiene," such as having multiple backups including some off-site, keeping systems "patched" and up to date, and limiting access controls as much as possible. This document does not cover basic computer hygiene or system administration. This document is intended to cover the *other* 20% that basic hygiene and administration *do not* cover well.
 
@@ -117,18 +117,20 @@ A physics lab and a materials science lab were affected by intrusions into the c
 **Concern:** Data loss  
 **Consequences:** Lost science time and reduced reputation
 
+A system intended to control a networked sensor array was in the process of being set up when its default login credentials were successfully guessed by a remote attacker. The intruder installed multiple tools on the compromised system, including a utility that would allow control over the hacked system to be retained even after the account used for the initial intrusion was disabled. Using this utility, the intruder issued a remote command to the compromised controller system that invoked a second tool, a "flooder" intended for use in a network-based denial-of-service attack against an off-site target. Once activated, the flooder generated a tremendous volume of outbound attack traffic, saturating its own network and rendering the local site's own border link unusable. Only after the site's network external network connectivity was lost was the compromised server and its running flooder tool discovered.
+
+**Asset:** Network-connected sensor control system; Network infrastructure
+**Concern:** Inaccessible network
+**Consequences:** Lost science time, affecting unrelated projects at the same facility, reduced reputation
+
 <!-- <a name="#possibly-targeted" / > -->
 
 ### Possibly targeted
 
-A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers are used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while system admininstrators and security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials.  
-**Asset:** Servers (compute clusters)  
-**Concerns:** Devices inaccessible and devices exposing sensitive information  
-**Consequences:** Lost science time
+A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers were used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while IT and Information Security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials. Investigation and remediation were complicated further at University A because the research project these systems served involved a physically remote location with poor network connectivity. At the time the intrusion was discovered, all personnel directly familiar with the configuration and management of these systems were at the remote location, with little in the way of explanatory documentation left for local IT staff to rely on while attempting to investigate and resolve the incident. Downtime, widespread credential changes, and general confusion all impacted the research project.
 
-A group of very fast-moving intruders gained access to systems in Astronomy departments at numerous universities using techniques similar to the above. A core group of computers that were compromised and running Trojaned SSH binaries were associated with a research project being run from a physically remote location with poor network connectivity, and at the time the intrusion was discovered, ALL personnel directly familiar with the configuration and management of these systems were at that location, which greatly hampered investigation and recovery, and extended the period of down time for these systems. Most of the systems involved were run by scientists, not system administrators, who understandably prioritized science over system management and documentation. System names were reused several times, and in some cases servers back at the university had names that indicated a connection with the project, when in fact there was no current relationship with the project. Downtime, widespread credential changes, and general confusion all impacted the research project.  
-**Assets:** Staff computing & networking and networks  
-**Concerns:** Device inaccessible, devices exposing sensitive information and transport prevented  
+**Assets:** Servers (compute clusters), staff computing & networking and networks
+**Concerns:** Devices inaccessible and devices exposing sensitive information and transport prevented
 **Consequences:** Lost science time
 
 <!-- <a name="#targeted" / > -->
