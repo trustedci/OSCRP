@@ -28,7 +28,8 @@ title: Open Science Cyber Risk Profile
 10. [Next Steps](#next-steps)
 11. [Conclusions](#conclusions)
 12. [Cybersecurity Resources for Open Science](#cybersecurity-resources-for-open-science)
-12. [Contributing to this Document](#contributing-to-this-document)
+13. [Acknowledgments](#acknowledgments)
+14. [Contributing to this Document](#contributing-to-this-document)
 
 
 <!--<a name="#authors" / >-->
@@ -386,6 +387,13 @@ For projects that need assistance, here are some resources to consider:
 -   [The EDUCAUSE IT Risk Register](https://library.educause.edu/resources/2015/10/it-risk-register)
 
 
+
+# Acknowledgments
+We thank the National Science Foundation (grant 1547272) for supporting our work.
+
+TODO: Add thank you to presenters.
+
+The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the NSF, DOE, or any other organization.
 
 # Contributing to this Document
 
