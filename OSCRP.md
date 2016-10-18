@@ -172,7 +172,7 @@ The following are the intended steps for using this document. The expectation is
 
 5.  Work with IT professionals to agree on and implement agreed controls or other means of mitigating risk.
 
-6.  Incorporate an annual refresh of this process into the project's activity cycle. Specifically considering if a project's assets have change, or the potential impact of the risks to the project has changed in such a way the project's risk profile may have changed.
+6.  Repeat this assessment annually, or more frequently if the project’s assets or risks have changed.
 
 <!-- <a name="#definitions-of-terms" / > -->
 
