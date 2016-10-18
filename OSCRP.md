@@ -44,9 +44,9 @@ For the lastest version and more information about the group, please see [*http:
 
 ## Overview and Goals
 
-While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to open science projects. Specifically, it provides a catalog of typical open science assets and the risks associated with those assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
+While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science assets and the risks associated with those assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
 
-This document achieves these goals by providing a list of information assets common to open science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those assets, with a list of concerns and consequences. The document describes how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
+This document achieves these goals by providing a list of information assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those assets, with a list of concerns and consequences. The document describes how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
 
 Other goals of the document include:
 
@@ -58,13 +58,13 @@ Other goals of the document include:
 
 ## Who This Document is Intended For
 
-The primary audience of this document is intended to be principal investigators (PIs) of "open science" projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc...), as well as information technology professionals involved in scientific research projects. Open science is defined here as "a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations."
+The primary audience of this document is intended to be principal investigators (PIs) of Open Science projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc...), as well as information technology professionals involved in scientific research projects. Open Science is defined here as "a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations."
 
 Not every scientific research project has a dedicated or even designated "information technology professional" involved. However, we make the assumption that even such projects typically have a *de facto* IT person. That person may be at the "institutional level" and therefore be almost entirely disconnected from the scientific project, and perhaps even completely unaware of it. In those cases, one of the purposes for this document is to enable PIs to help engage with institutional IT professionals to discuss risks.
 
 A secondary audience for this document is institutional IT professionals (e.g., CIOs, CISOs). While we do not anticipate that institutional IT professionals will necessarily use this document directly, we expect that it may be a useful reference for institutional IT professionals to provide to PIs and research IT professionals within their organization.
 
-We do make the assumption that the institution where open science takes place has some kind of security professional at some level,  in addition to a defined or de facto IT person, regardless of whether that person is directly attached to the science project or is at the institutional level.
+We do make the assumption that the institution where Open Science takes place has some kind of security professional at some level,  in addition to a defined or de facto IT person, regardless of whether that person is directly attached to the science project or is at the institutional level.
 
 <!-- <a name="#introduction" / >-->
 
@@ -72,7 +72,7 @@ We do make the assumption that the institution where open science takes place ha
 
 We read stories daily about computer security incidents. Home Depot. Sony. The U.S. Office of Personnel Management. Hospitals getting hit by ransomware. All of those organizations take security seriously, but are still vulnerable.
 
-Believe it or not, science --- even "open," unclassified science is vulnerable as well. And indeed, "open science" can at times be particularly vulnerable because "open science" is often so exposed, since by nature there tends to be significant sharing of data, resources, and/or results.
+Believe it or not, science --- even unclassified, Open Science is vulnerable as well. And indeed, Open Science can at times be particularly vulnerable because Open Science is often so exposed, since by nature there tends to be significant sharing of data, resources, and/or results.
 
 Sometimes, that science is specifically targeted by attackers whose goal is disruption, possibly for political reasons or even simple mischief-making.
 
@@ -84,19 +84,19 @@ We assert that something on the order of 80% of "good computer security" results
 
 # Bad Things Can Happen to Good Science
 
-There are numerous examples of open science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. "Damage" has ranged from simple disruption and some loss of work time to vast amounts of money spent to attempt to repair systems and recover scientific data. A handful of real examples are discussed in this section.
+There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. "Damage" has ranged from simple disruption and some loss of work time to vast amounts of money spent to attempt to repair systems and recover scientific data. A handful of real examples are discussed in this section.
 
-Computing systems of all kinds can fail due to accident, error, natural events, or due to malicious tampering. Consequences of computing system failure due to malicious tampering have historically been organized into three categories: confidentiality, integrity, and availability. Failures in open science projects relating to each of those categories can have significant impact on those projects being able to fulfill their mission.
+Computing systems of all kinds can fail due to accident, error, natural events, or due to malicious tampering. Consequences of computing system failure due to malicious tampering have historically been organized into three categories: confidentiality, integrity, and availability. Failures in Open Science projects relating to each of those categories can have significant impact on those projects being able to fulfill their mission.
 
 The United States funds billions of dollars of scientific research each year. Regarding scientific integrity, "Much of that research has results that are purely scientific, while some of the research findings, including those from computational results, can also inform national policy decisions. ... Even for the basic science, since U.S. taxpayer dollars fund a large cadre of the nation's top scientists to do research, it is vital that the results can ultimately be trusted." (from Sean Peisert et al.. "[ASCR Cybersecurity for Scientific Computing Integrity](https://crd.lbl.gov/assets/Uploads/Final-ASCR-Cybersecurity-ReportR7.pdf)," Technical Report LBNL- 6953E, U.S. Department of Energy Office of Science report, February 2015.)
 
-Aside from integrity, while some "open science" is done entirely in the open, suppose certain results were released before they were intended for publication? The results could range from embarrassment to intellectual property theft to violation of the terms of scientific embargoes. And, even "open" projects generally have restricted data, such as personally identifiable information that Federal regulations prohibit exposing. Perhaps more important to the institution is who is accountable when something goes wrong.
+Aside from integrity, while some Open Science is done entirely in the open, suppose certain results were released before they were intended for publication? The results could range from embarrassment to intellectual property theft to violation of the terms of scientific embargoes. And, even Open Science projects generally have restricted data, such as personally identifiable information that Federal regulations prohibit exposing. Perhaps more important to the institution is who is accountable when something goes wrong.
 
 Or regarding "availability," what if a scientific instrument were unavailable for an extended period of time, or had unpredictable availability so that the instrument could not be trusted? Or what if a key data set used by the public went offline of a period of time, and hindered critical work by other researchers?
 
 Finally, what if a key server being used by a research group was wiped clean and a month or a year of data was lost?
 
-The point we emphasize in this document is that computer security-related consequences in "open science" can be as important as consequences elsewhere, and researchers should not assume that simply because are eventually intended to be published openly that they should not care about computer security. Nor, should researchers assume that their institutions will protect them --- at least not without active engagement between the PI and the institution.
+The point we emphasize in this document is that computer security-related consequences in Open Science can be as important as consequences elsewhere, and researchers should not assume that simply because are eventually intended to be published openly that they should not care about computer security. Nor, should researchers assume that their institutions will protect them --- at least not without active engagement between the PI and the institution.
 
 <!-- <a name="#examples-of-computer-security-incidents-affecting-research" / > -->
 
@@ -152,7 +152,7 @@ The primary mail server for a university's climate research group was hacked by 
 
 ## How to Use this Document
 
-The following sections of this document provides a list of common open science assets. Each asset is critical to a project's science mission in some way such that it represents a set of concerns. That is, if the asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
+The following sections of this document provides a list of common Open Science assets. Each asset is critical to a project's science mission in some way such that it represents a set of concerns. That is, if the asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
 
 In this section, we describe how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
 
@@ -162,7 +162,7 @@ The following are the intended steps for using this document. The expectation is
 
 1.  Identify the stakeholders of the science project --- at the very least, this includes the principal investigator(s) and science team; other researchers, including possible external users; the institution that owns or manages the science instrument, the project, and the mission it supports; and possibly human subjects of the science project.
 
-2.  Create an asset inventory for the project by looking through the list in the "Common Open Science Assets" section, and identifying all the assets relevant to the open science project.
+2.  Create an asset inventory for the project by looking through the list in the "Common Open Science Assets" section, and identifying all the assets relevant to the Open Science project.
 
 3.  For each mission critical science asset, examine the Concerns, Consequences, and Avenues of Attack diagram associated with the asset and note which concerns and consequences are relevant to the project, and the extent to which they are relevant
 
@@ -180,7 +180,7 @@ The following are the intended steps for using this document. The expectation is
 
 The following terms are used in this document.
 
--   *Open Science Project*: a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. This research typically takes place at universities, government labs, and some non-profit research organizations. Open science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
+-   *Open Science Project*: a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. This research typically takes place at universities, government labs, and some non-profit research organizations. Open Science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
 
 -   *Asset*: "Assets" are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.
 
@@ -373,7 +373,7 @@ As mentioned earlier, this document focuses on the process of identifying key sc
 
 # Conclusions
 
-Open Science, despite having a culture of public data and open collaboration, still faces cybersecurity-related threats. This document aids Principal Investigators and their supporting IT professionals in assessing cybersecurity risks through a catalog of typical open science assets and the common risks associated with those assets.
+Open Science, despite having a culture of public data and open collaboration, still faces cybersecurity-related threats. This document aids Principal Investigators and their supporting IT professionals in assessing cybersecurity risks through a catalog of typical Open Science assets and the common risks associated with those assets.
 
 <!-- <a name="#cybersecurity-resources-for-open-science" / > -->
 
