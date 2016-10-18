@@ -232,8 +232,6 @@ We believe the following Assets apply to our project:
 
 -   File-store:   The data from the telescope as well as preliminary results are stored on a central data storage system.
 
-While we've tried to be comprehensive, please don't hesitate to identify your own assets that may not be covered by our examples.
-
 *Step 3* begins after the Assets have been identified.  For this example, we select just one of our assets --- Embargoed Data --- and examone its Consequences, Concerns and Avenues of Attack diagram:
 
 
