@@ -44,9 +44,9 @@ For the lastest version and more information about the group, please see [*http:
 
 ## Overview and Goals
 
-While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science assets and the risks associated with those assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
+While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science Assets and the risks associated with those Assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying assets and provide guidance in completing a Risk Assessment Table.
 
-This document achieves these goals by providing a list of information assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those assets, with a list of concerns and consequences. The document describes how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
+This document achieves these goals by providing a list of information Assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those Assets, with a list of concerns and consequences. Assets can include computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC. The document describes how to use this list of common Assets to understand a project's concerns, assess them, and begin the process of mitigating them.
 
 Other goals of the document include:
 
@@ -58,7 +58,7 @@ Other goals of the document include:
 
 ## Who This Document is Intended For
 
-The primary audience of this document is intended to be principal investigators (PIs) of Open Science projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc...), as well as information technology professionals involved in scientific research projects. Open Science is defined here as "a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations."
+The primary audience of this document is intended to be principal investigators (PIs) of Open Science projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc...), as well as information technology professionals involved in scientific research projects. Open Science is defined here as a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. Open Science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
 
 Not every scientific research project has a dedicated or even designated "information technology professional" involved. However, we make the assumption that even such projects typically have a *de facto* IT person. That person may be at the "institutional level" and therefore be almost entirely disconnected from the scientific project, and perhaps even completely unaware of it. In those cases, one of the purposes for this document is to enable PIs to help engage with institutional IT professionals to discuss risks.
 
@@ -152,9 +152,9 @@ The primary mail server for a university's climate research group was hacked by 
 
 ## How to Use this Document
 
-The following sections of this document provides a list of common Open Science assets. Each asset is critical to a project's science mission in some way such that it represents a set of concerns. That is, if the asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
+The following sections of this document provides a list of common Open Science Assets. Each Asset is critical to a project's science mission in some way such that it represents a set of concerns. That is, if the Asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
 
-In this section, we describe how to use this list of common assets to understand a project's concerns, assess them, and begin the process of mitigating them.
+In this section, we describe how to use this list of common Assets to understand a project's concerns, assess them, and begin the process of mitigating them.
 
 The following are the intended steps for using this document. The expectation is that the first two steps are accomplished by the project PI working in collaboration with the project's designated cybersecurity lead. Subsequent steps are accomplished by the project cybersecurity lead.
 
@@ -162,17 +162,17 @@ The following are the intended steps for using this document. The expectation is
 
 1.  Identify the stakeholders of the science project --- at the very least, this includes the principal investigator(s) and science team; other researchers, including possible external users; the institution that owns or manages the science instrument, the project, and the mission it supports; and possibly human subjects of the science project.
 
-2.  Create an asset inventory for the project by looking through the list in the "Common Open Science Assets" section, and identifying all the assets relevant to the Open Science project.
+2.  Create an Asset inventory for the project by looking through the list in the "Common Open Science Assets" section, and identifying all the Assets relevant to the Open Science project.
 
-3.  For each mission critical science asset, examine the Concerns, Consequences, and Avenues of Attack diagram associated with the asset and note which concerns and consequences are relevant to the project, and the extent to which they are relevant
+3.  For each mission critical science Asset, examine the Concerns, Consequences, and Avenues of Attack diagram associated with the Asset and note which concerns and consequences are relevant to the project, and the extent to which they are relevant
 
 4.  For each relevant concern note the vectors that could cause the concern to be realized.
 
-**While *mitigations* are outside the scope of this document, the process of identifying key assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
+**While *mitigations* are outside the scope of this document, the process of identifying key Assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
 
 5.  Work with IT professionals to agree on and implement agreed controls or other means of mitigating risk.
 
-6.  Repeat this assessment annually, or more frequently if the project’s assets or risks have changed.
+6.  Repeat this assessment annually, or more frequently if the project’s Assets or risks have changed.
 
 <!-- <a name="#definitions-of-terms" / > -->
 
@@ -194,11 +194,11 @@ The following terms are used in this document.
 
     -   Concerns are often expressible using:
 
-        -   *Integrity*: The need to trust in an asset, e.g., if an asset becomes corrupted, then its integrity is diminished
+        -   *Integrity*: The need to trust in an Asset, e.g., if an Asset becomes corrupted, then its integrity is diminished
 
-        -   *Confidentiality*: The process or need to conceal all or some aspect of an asset
+        -   *Confidentiality*: The process or need to conceal all or some aspect of an Asset
 
-        -   *Availability*: The process or need to keep an asset accessible/operational
+        -   *Availability*: The process or need to keep an Asset accessible/operational
 
 -   *Consequences*: The negative effect of a realized Concern on the Project Mission.
 
@@ -227,12 +227,12 @@ We believe the following Assets apply to our project:
 
 -   Staff Computing & Networking:   The workstations, laptops, and connectivity of project staff and any outside collaborators.
 
--   Telescopes: Our telescopes have network-connected control system that allows for remote collaborators to adjust parameters.  Both telescopes are considered similar, but separate assets due to their placement at different institutions.
+-   Telescopes: Our telescopes have network-connected control system that allows for remote collaborators to adjust parameters.  Both telescopes are considered similar, but separate Assets due to their placement at different institutions.
 
 
 -   File-store:   The data from the telescope as well as preliminary results are stored on a central data storage system.
 
-*Step 3* begins after the Assets have been identified.  For this example, we select just one of our assets --- Embargoed Data --- and examone its Consequences, Concerns and Avenues of Attack diagram:
+*Step 3* begins after the Assets have been identified.  For this example, we select just one of our Assets --- Embargoed Data --- and examone its Consequences, Concerns and Avenues of Attack diagram:
 
 
 ![Example 1 Base Diagram](diagrams/Embargoed_Data.png)
@@ -247,12 +247,12 @@ We see in the diagram that the Avenues of Attack for embargoed data
 reference other Assets that are the likely cause of a problem.  This
 may help identify more Assets that we hadn't previously
 considered.  Let's follow one of those paths to see where it leads.
-On the bottom right, we see the Servers assets could lead to
-exposed data, so we pull up the Servers asset diagram:
+On the bottom right, we see the Servers Assets could lead to
+exposed data, so we pull up the Servers Asset diagram:
 
 ![Example 1 Facilities](diagrams/Servers.png)
 
-Looking at the Servers asset we are presented with several more
+Looking at the Servers Asset we are presented with several more
 Concerns and Avenues of Attack.  As you can see, by starting with our
 Concerns about data and the possible Consequences we care about as
 scientists, we are able to follow the diagrams and end up with a
@@ -288,9 +288,9 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Internal data*](assets/InternalData.html): Data that is never intended to be published.  This includes: generated or derived data (usually intermediate computational results), e-mails or notes
 
--   [*Documentation*](assets/Documentation.html): Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of assets
+-   [*Documentation*](assets/Documentation.html): Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of Assets
 
--   [*Accounting Information*](assets/AccountingInformation.html): Logs and databases recording the production, post-processing or management of assets
+-   [*Accounting Information*](assets/AccountingInformation.html): Logs and databases recording the production, post-processing or management of Assets
 
 -   [*For Approved Access Only*](assets/ForApprovedAccessOnly.html): Project/personnel data necessary for the Open Science mission
 
@@ -299,13 +299,13 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Facilities Assets
 
--   [*Facilities*](assets/Facilities.html): Physical storage, power & climate control used to house assets
+-   [*Facilities*](assets/Facilities.html): Physical storage, power & climate control used to house Assets
 
 <!--  Standard lab equipment-->
 
--   [*Staff computing & networking*](assets/Institution-systems.html): Institutional systems used by staff to access assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage (also mailing lists, calendars)
+-   [*Staff computing & networking*](assets/Institution-systems.html): Institutional systems used by staff to access Assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage (also mailing lists, calendars)
 
-    - Note, the **risk** associated with this asset is absorbed by the institution that owns them, not the project, but it is useful for the project to understand the greater risks involved 
+    - Note, the **risk** associated with this Asset is absorbed by the institution that owns them, not the project, but it is useful for the project to understand the greater risks involved 
 
 <!-- <a name="#system-and-hardware-assets" / > -->
 
@@ -321,13 +321,13 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*User Portal*](assets/User-portal.html): System enabling users to initiate production or post-processing of data
 
--   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other assets
+-   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other Assets
 
--   [*Desktops*](assets/Desktops.html): Systems used to access, store, produce and/or manipulate other assets
+-   [*Desktops*](assets/Desktops.html): Systems used to access, store, produce and/or manipulate other Assets
 
--   [*Laptops*](assets/Laptops.html): Systems used to access, store, produce and/or manipulate other assets
+-   [*Laptops*](assets/Laptops.html): Systems used to access, store, produce and/or manipulate other Assets
 
--   [*Mobile devices*](assets/MobileDevices.html): Systems used to access other assets (tablets, smartphones, smartwatches)
+-   [*Mobile devices*](assets/MobileDevices.html): Systems used to access other Assets (tablets, smartphones, smartwatches)
 
 <!-- <a name="#software-assets" / > -->
 
@@ -357,9 +357,9 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Project Reputation*](assets/Project-Reputation.html): Credibility associated with an organization
 
--   [*Staff*](assets/Staff.html): People involved in the production, post-processing or management of assets
+-   [*Staff*](assets/Staff.html): People involved in the production, post-processing or management of Assets
 
--   [*Collaboration*](assets/Collaboration.html): Meetings and agendas used by staff to coordinate the production, post-processing or management of assets
+-   [*Collaboration*](assets/Collaboration.html): Meetings and agendas used by staff to coordinate the production, post-processing or management of Assets
 
 -   [*Workflow*](assets/Workflow.html): The process or protocols by which science is achieved within a project.
 
@@ -367,13 +367,13 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 # Next Steps
 
-As mentioned earlier, this document focuses on the process of identifying key scientific assets and understanding some of the key risks that those assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related concerns and avenues of attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
+As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related concerns and avenues of attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
 
 <!--<a name="#conclusions" / >-->
 
 # Conclusions
 
-Open Science, despite having a culture of public data and open collaboration, still faces cybersecurity-related threats. This document aids Principal Investigators and their supporting IT professionals in assessing cybersecurity risks through a catalog of typical Open Science assets and the common risks associated with those assets.
+Open Science, despite having a culture of public data and open collaboration, still faces cybersecurity-related threats. This document aids Principal Investigators and their supporting IT professionals in assessing cybersecurity risks through a catalog of typical Open Science Assets and the common risks associated with those Assets.
 
 <!-- <a name="#cybersecurity-resources-for-open-science" / > -->
 
@@ -397,7 +397,7 @@ Any opinions, findings, conclusions, or recommendations contained herein are tho
 
 # Contributing to this Document
 
-This document is hosting in GitHub to encourage the community to make contributions of new assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
+This document is hosting in GitHub to encourage the community to make contributions of new Assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
 
 1. Point out a problem or make a suggestion by [creating a issue](https://github.com/trustedci/OSCTP/issues).
 2. Author changes or additions by [creating a fork and push your changes](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/).
