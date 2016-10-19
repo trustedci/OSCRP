@@ -46,7 +46,15 @@ For the lastest version and more information about the group, please see [*http:
 
 While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science Assets and the risks associated with those Assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying Assets and provide guidance in completing a Risk Assessment Table.
 
-This document achieves these goals by providing a list of information Assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those Assets, with a list of concerns and consequences. Assets can include computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC. The document describes how to use this list of common Assets to understand a project's concerns, assess them, and begin the process of mitigating them.
+This document achieves these goals by providing a list of information Assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those Assets, with a list of Concerns and Consequences. 
+
+*Assets* can include computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC. 
+
+A *Concern* is a potential negative change to an Asset that impacts the mission of the project. A Concern does not consider the source of the change. For example, the severing of a transatlantic networking link by whatever means would be a negative change that could hamper a project's mission to deliver data to its community and hence for that community to conduct science. A Concern can also be thought of as a risk but without a measure of likelihood. However, in this document, we do not attempt to address likelihood. Therefore, we use the terms "risk" and "concern" interchangeably; Threat is also another synonym. Concerns can be expressed using *Integrity* (the need to trust in an Asset, e.g., if an Asset becomes corrupted, then its integrity is diminished), *Confidentiality* (the process or need to conceal all or some aspect of an Asset); and *Availability* (the process or need to keep an Asset accessible/operational.)
+
+A *Consequence* is the negative effect of a realized Concern on the project mission. It is a synonym for *Impact*. 
+
+The document describes how to use this list of common Assets to understand a project's Concerns, assess them, and begin the process of mitigating them.
 
 Other goals of the document include:
 
@@ -152,9 +160,9 @@ The primary mail server for a university's climate research group was hacked by 
 
 ## How to Use this Document
 
-The following sections of this document provides a list of common Open Science Assets. Each Asset is critical to a project's science mission in some way such that it represents a set of concerns. That is, if the Asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
+The following sections of this document provides a list of common Open Science Assets. Each Asset is critical to a project's science mission in some way such that it represents a set of Concerns. That is, if the Asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
 
-In this section, we describe how to use this list of common Assets to understand a project's concerns, assess them, and begin the process of mitigating them.
+In this section, we describe how to use this list of common Assets to understand a project's Concerns, assess them, and begin the process of mitigating them.
 
 The following are the intended steps for using this document. The expectation is that the first two steps are accomplished by the project PI working in collaboration with the project's designated cybersecurity lead. Subsequent steps are accomplished by the project cybersecurity lead.
 
@@ -164,9 +172,9 @@ The following are the intended steps for using this document. The expectation is
 
 2.  Create an Asset inventory for the project by looking through the list in the "Common Open Science Assets" section, and identifying all the Assets relevant to the Open Science project.
 
-3.  For each mission critical science Asset, examine the Concerns, Consequences, and Avenues of Attack diagram associated with the Asset and note which concerns and consequences are relevant to the project, and the extent to which they are relevant
+3.  For each mission critical science Asset, examine the Concerns, Consequences, and Avenues of Attack diagram associated with the Asset and note which Concerns and Consequences are relevant to the project, and the extent to which they are relevant
 
-4.  For each relevant concern note the vectors that could cause the concern to be realized.
+4.  For each relevant Concern note the vectors that could cause the Concern to be realized.
 
 **While *mitigations* are outside the scope of this document, the process of identifying key Assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
 
@@ -365,7 +373,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 # Next Steps
 
-As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related concerns and avenues of attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
+As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating Concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related Concerns and Avenues of Attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
 
 <!--<a name="#conclusions" / >-->
 
