@@ -184,8 +184,6 @@ The following terms are used in this document.
 
 -   *Asset*: "Assets" are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.
 
--   *Project Mission*: what the project is intended to do. This implicitly or explicitly defines what kind of changes (e.g., due to attack) are considered negative.
-
 -   *Concern*: A potential negative change to an Asset that impacts the mission of the project. A concern does not consider the source of the change. For example, the severing of a transatlantic networking link by whatever means would be a negative change that could hamper a project's mission to deliver data to its community and hence for that community to conduct science.
 
     -   Synonym for *Threat*.
@@ -200,7 +198,7 @@ The following terms are used in this document.
 
         -   *Availability*: The process or need to keep an Asset accessible/operational
 
--   *Consequences*: The negative effect of a realized Concern on the Project Mission.
+-   *Consequences*: The negative effect of a realized Concern on the project mission.
 
     -   Synonym for *Impact.*
 
@@ -274,7 +272,7 @@ of Attack may be possible that are unique to your environment.
 
 # Common Open Science Assets 
 
-In this section we list common Open Science Assets and provide a diagram for each that provides a connection between the Concerns and Consequences from the perspective of the Project Mission and the Avenues of Attack that provide guidance to the cybersecurity lead in mitigating the Concerns regarding the Asset.
+In this section we list common Open Science Assets and provide a diagram for each that provides a connection between the Concerns and Consequences from the perspective of the project mission and the Avenues of Attack that provide guidance to the cybersecurity lead in mitigating the Concerns regarding the Asset.
 
 <!-- <a name="#data-assets" / > -->
 
