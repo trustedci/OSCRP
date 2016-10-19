@@ -389,9 +389,11 @@ For projects that need assistance, here are some resources to consider:
 # Acknowledgments
 We thank the National Science Foundation (grant 1547272) for supporting our work.
 
+Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.  
+
 TODO: Add thank you to presenters.
 
-The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of the NSF, DOE, or any other organization.
+Any opinions, findings, conclusions, or recommendations contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of any of the sponsors of this work, employers of the authors, or any other organization.
 
 # Contributing to this Document
 
