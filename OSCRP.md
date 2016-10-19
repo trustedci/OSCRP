@@ -16,20 +16,19 @@ title: Open Science Cyber Risk Profile
 		- [Possibly targeted](#possibly-targeted)
 		- [Targeted](#targeted)
 6. [How to Use this Document](#how-to-use-this-document)
-7. [Definitions of Terms](#definitions-of-terms)
-8. [Usage Example: Embargoed Data Case Study](#usage-example-embargoed Data-case-study)
-9. [Common Open Science Assets](#common-open-science-assets)
+7. [Usage Example: Embargoed Data Case Study](#usage-example-embargoed Data-case-study)
+8. [Common Open Science Assets](#common-open-science-assets)
 	* [Data Assets](#data-assets)
 	* [Facilities Assets](#facilities-assets)
 	* [System and Hardware Assets](#system-and-hardware-assets)
 	* [Software Assets](#software-assets)
 	* [Instruments](#instruments)
 	* [Intangible and Human Assets](#intangible-and-human-assets)
-10. [Next Steps](#next-steps)
-11. [Conclusions](#conclusions)
-12. [Cybersecurity Resources for Open Science](#cybersecurity-resources-for-open-science)
-13. [Acknowledgments](#acknowledgments)
-14. [Contributing to this Document](#contributing-to-this-document)
+8. [Next Steps](#next-steps)
+10. [Conclusions](#conclusions)
+11. [Cybersecurity Resources for Open Science](#cybersecurity-resources-for-open-science)
+12. [Acknowledgments](#acknowledgments)
+13. [Contributing to this Document](#contributing-to-this-document)
 
 
 <!--<a name="#authors" / >-->
@@ -185,42 +184,6 @@ The following are the intended steps for using this document. The expectation is
 5.  Work with IT professionals to agree on and implement agreed controls (protections against Concerns) or other means of mitigating risk.
 
 6.  Repeat this assessment annually, or more frequently if the project’s Assets or risks have changed.
-
-<!-- <a name="#definitions-of-terms" / > -->
-
-# Definitions of Terms
-
-The following terms are used in this document.
-
--   *Open Science Project*: a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. This research typically takes place at universities, government labs, and some non-profit research organizations. Open Science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
-
--   *Asset*: "Assets" are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.
-
--   *Concern*: A potential negative change to an Asset that impacts the mission of the project. A concern does not consider the source of the change. For example, the severing of a transatlantic networking link by whatever means would be a negative change that could hamper a project's mission to deliver data to its community and hence for that community to conduct science.
-
-    -   Synonym for *Threat*.
-
-    -   A Concern can also be thought of as a risk but without a measure of likelihood. However, in this document, we do not attempt to address likelihood. Therefore, we use the terms "risk" and "concern" interchangeably.
-
-    -   Concerns are often expressible using:
-
-        -   *Integrity*: The need to trust in an Asset, e.g., if an Asset becomes corrupted, then its integrity is diminished
-
-        -   *Confidentiality*: The process or need to conceal all or some aspect of an Asset
-
-        -   *Availability*: The process or need to keep an Asset accessible/operational
-
--   *Consequences*: The negative effect of a realized Concern on the project mission.
-
-    -   Synonym for *Impact.*
-
--   *Controls*: Protection mechanisms that attempt to enforce the security goals with respect to the project mission to prevent Concerns from taking place
-
--   *Exposure*: Loss of Confidentiality
-
--   *Avenues of Attack*: One or more means by which an Asset can be impacted.
-
-    -   Synonym for *Attack Surface* in cybersecurity nomenclature.
 
 <!-- <a name="#embargoed-data-case-study" / > -->
 
