@@ -46,7 +46,9 @@ For the lastest version and more information about the group, please see [*http:
 
 While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science Assets and the risks associated with those Assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying Assets and provide guidance in completing a Risk Assessment Table.
 
-This document achieves these goals by providing a list of information Assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible avenues of attack for those Assets, with a list of Concerns and Consequences. 
+This document achieves these goals by providing a list of information Assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible Avenues of Attack for those Assets, with a list of Concerns and Consequences. 
+
+*Avenues of Attack* are means by which an Asset can be impacted. 
 
 *Assets* can include computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC. 
 
@@ -180,7 +182,7 @@ The following are the intended steps for using this document. The expectation is
 
 **While *mitigations* are outside the scope of this document, the process of identifying key Assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
 
-5.  Work with IT professionals to agree on and implement agreed controls or other means of mitigating risk.
+5.  Work with IT professionals to agree on and implement agreed controls (protections against Concerns) or other means of mitigating risk.
 
 6.  Repeat this assessment annually, or more frequently if the project’s Assets or risks have changed.
 
