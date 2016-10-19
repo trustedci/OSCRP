@@ -61,7 +61,7 @@ Other goals of the document include:
 
 -   Allowing projects to understand the risks associated with their science data so those risks can be addressed in Data Management Plans
 
--   Allowing NSF projects to address the relevant portion of their responsibilities in the [*NSF Cooperative Agreement Terms & Cconditions for Large Facilities*](http://www.nsf.gov/pubs/policydocs/cafatc/cafatc_lf116.pdf) and [*Large Facilities Manual*](https://www.nsf.gov/publications/pub_summ.jsp?ods_key=lfm)
+-   Allowing NSF projects to address the relevant portion of their responsibilities in the [*NSF Cooperative Agreement Terms & Conditions for Large Facilities*](http://www.nsf.gov/pubs/policydocs/cafatc/cafatc_lf116.pdf) and [*Large Facilities Manual*](https://www.nsf.gov/publications/pub_summ.jsp?ods_key=lfm)
 
 <!-- <a name="#who-this-document-is-intended-for" / > -->
 
@@ -205,7 +205,7 @@ We believe the following Assets apply to our project:
 
 -   File-store:   The data from the telescope as well as preliminary results are stored on a central data storage system.
 
-*Step 3* begins after the Assets have been identified.  For this example, we select just one of our Assets --- Embargoed Data --- and examone its Consequences, Concerns and Avenues of Attack diagram:
+*Step 3* begins after the Assets have been identified.  For this example, we select just one of our Assets --- Embargoed Data --- and examine its Consequences, Concerns and Avenues of Attack diagram:
 
 
 ![Example 1 Base Diagram](diagrams/Embargoed_Data.png)
