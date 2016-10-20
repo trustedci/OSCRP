@@ -93,21 +93,10 @@ We assert that something on the order of 80% of "good computer security" results
 
 # Bad Things Can Happen to Good Science
 
-There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. "Damage" has ranged from simple disruption and some loss of work time to vast amounts of money spent to attempt to repair systems and recover scientific data. A handful of real examples are discussed in this section.
+There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. Several real examples, with identifying details removed, are described below. They show that the damage can range
+from simple disruption and some loss of work time to significant financial resources spent to repair systems and recover scientific data, significant impact on those projects being able to fulfill their mission. 
 
-Computing systems of all kinds can fail due to accident, error, natural events, or due to malicious tampering. Consequences of computing system failure due to malicious tampering have historically been organized into three categories: confidentiality, integrity, and availability. *Confidentiality* is the process or need to conceal all or some aspect of an Asset.  *Integrity* is the need to trust in an Asset, e.g., if an Asset becomes corrupted, then its Integrity is diminished. *Availability* is the process or need to keep an Asset accessible/operational. 
-
-Failures in Open Science projects relating to each of those categories can have significant impact on those projects being able to fulfill their mission.
-
-The United States funds billions of dollars of scientific research each year. Regarding scientific Integrity, "Much of that research has results that are purely scientific, while some of the research findings, including those from computational results, can also inform national policy decisions. ... Even for the basic science, since U.S. taxpayer dollars fund a large cadre of the nation's top scientists to do research, it is vital that the results can ultimately be trusted." (from Sean Peisert et al.. "[ASCR Cybersecurity for Scientific Computing Integrity](https://crd.lbl.gov/assets/Uploads/Final-ASCR-Cybersecurity-ReportR7.pdf)," Technical Report LBNL- 6953E, U.S. Department of Energy Office of Science report, February 2015.)
-
-Aside from Integrity, while some Open Science is done entirely in the open, suppose certain results were released before they were intended for publication? The results could range from embarrassment to intellectual property theft to violation of the terms of scientific embargoes. And, even Open Science projects generally have restricted data, such as personally identifiable information that Federal regulations prohibit exposing. Perhaps more important to the institution is who is accountable when something goes wrong.
-
-Or regarding Availability, what if a scientific instrument were unavailable for an extended period of time, or had unpredictable Availability so that the instrument could not be trusted? Or what if a key data set used by the public went offline of a period of time, and hindered critical work by other researchers?
-
-Finally, what if a key server being used by a research group was wiped clean and a month or a year of data was lost?
-
-The point we emphasize in this document is that computer security-related Consequences in Open Science can be as important as Consequences elsewhere, and researchers should not assume that simply because are eventually intended to be published openly that they should not care about computer security. Nor, should researchers assume that their institutions will protect them --- at least not without active engagement between the PI and the institution.
+Consequences of malicious tampering have historically been organized into three categories: Integrity, Availability, and Confidentiality. With respect to Integrity, it is critical that scientific outputs be trusted as uncorrupted if they are to be used as the foundation for future science and critical policy decisions. The loss of Availability of valuable data or instruments can slow the scientific process, lead to lost science opportunities (e.g., if data are permanently lost, or a sensor is down during a particular natural phenomenon), be expensive to replace, and lead to embarrassment and a loss of reputation. And finally, even open science projects generally have Confidentiality concerns with respect to embargoed data, such as data that have not been quality assessed or will be released after publication, and restricted data, such as personally identifiable information that Federal regulations prohibit exposing.
 
 <!-- <a name="#examples-of-computer-security-incidents-affecting-research" / > -->
 
@@ -158,6 +147,8 @@ The primary mail server for a university's climate research group was hacked by 
 **Asset:** Internal data  
 **Concern:** Data exposed  
 **Consequences:** Reduced reputation and legal action
+
+The point we emphasize with these examples is that computer security-related Consequences in Open Science can be as important as Consequences elsewhere, and researchers should not assume that simply because data are eventually intended to be published openly that they should not care about computer security. Nor should researchers assume that their institutions will protect them—at least not without active engagement between the PI and the institution.
 
 <!-- <a name="#how-to-use-this-document" / > -->
 
