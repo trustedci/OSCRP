@@ -33,7 +33,7 @@ title: Open Science Cyber Risk Profile
 
 <!--<a name="#authors" / >-->
 
-## Authors
+## 1. Authors
 
 This OSCTP is a product of the OSCTP working group. The OSCTP working group is led by [*Sean Peisert*](http://crd.lbl.gov/Q/peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from ESnet and [*Von Welch*](https://cacr.iu.edu/about/People/administration/von-welch.php), [*Andrew Adams*](http://staff.psc.edu/akadams/), and [*Susan Sons*](https://cacr.iu.edu/about/People/staff/susan-sons.php) from the NSF Cybersecurity Center of Excellence. Core members of the working group are: [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue HUBzero)*](https://hubzero.org/members/1292), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X). Contributing members are [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Reagan Moore (iRods)*](http://wiki.irods.org/index.php/Reagan_Moore), [*Warren Raquel (NCSA)*](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel).
 
@@ -41,7 +41,7 @@ For the lastest version and more information about the group, please see [*http:
 
 <!--<a name="#executive-summary" / >-->
 
-## Overview and Goals
+## 2. Overview and Goals
 
 While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Threat Profile (OSCTP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science Assets and the risks associated with those Assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying Assets and provide guidance in completing a Risk Assessment Table.
 
@@ -65,7 +65,7 @@ Other goals of the document include:
 
 <!-- <a name="#who-this-document-is-intended-for" / > -->
 
-## Who This Document is Intended For
+## 3. Who This Document is Intended For
 
 The primary audience of this document is intended to be principal investigators (PIs) of Open Science projects involving computing infrastructure of any type (computing, networking, sensors, control systems, etc...), as well as information technology professionals involved in scientific research projects. Open Science is defined here as a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. Open Science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
 
@@ -77,7 +77,7 @@ We do make the assumption that the institution where Open Science takes place ha
 
 <!-- <a name="#introduction" / >-->
 
-## Introduction
+## 4. Introduction
 
 We read stories daily about computer security incidents. Home Depot. Sony. The U.S. Office of Personnel Management. Hospitals getting hit by ransomware. All of those organizations take security seriously, but are still vulnerable.
 
@@ -91,7 +91,7 @@ We assert that something on the order of 80% of "good computer security" results
 
 <!--<a name="#bad-things-can-happen-to-good-science" / >-->
 
-# Bad Things Can Happen to Good Science
+# 5. Bad Things Can Happen to Good Science
 
 There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. Several real examples, with identifying details removed, are described below. They show that the damage can range
 from simple disruption and some loss of work time to significant financial resources spent to repair systems and recover scientific data, significant impact on those projects being able to fulfill their mission. 
@@ -152,7 +152,7 @@ The point we emphasize with these examples is that computer security-related Con
 
 <!-- <a name="#how-to-use-this-document" / > -->
 
-## How to Use this Document
+## 6. How to Use this Document
 
 The following sections of this document provides a list of common Open Science Assets. Each Asset is critical to a project's science mission in some way such that it represents a set of Concerns. That is, if the Asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
 
@@ -178,7 +178,7 @@ The following are the intended steps for using this document. The expectation is
 
 <!-- <a name="#embargoed-data-case-study" / > -->
 
-# Usage Example: Embargoed Data Case Study
+# 7. Usage Example: Embargoed Data Case Study
 
 To demonstrate how to carry out the risk profile steps, we'll pretend we are the PI for a small science project that has two telescopes tracking changes in the night sky over time.  In *Step 1* of the process flow, we identify the stakeholders as our immediate project team, a collaborating research team, and the institutions that house the two telescopes.  The stakeholders may be brought in to help with the remaining steps as well as to discuss the results.
 
@@ -236,7 +236,7 @@ of Attack may be possible that are unique to your environment.
    
 <!-- <a name="#common-open-science-assets" / > -->
 
-# Common Open Science Assets 
+# 8. Common Open Science Assets 
 
 In this section we list common Open Science Assets and provide a diagram for each that provides a connection between the Concerns and Consequences from the perspective of the project mission and the Avenues of Attack that provide guidance to the cybersecurity lead in mitigating the Concerns regarding the Asset.
 
@@ -329,19 +329,19 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 <!--<a name="#next-steps" / > -->
 
-# Next Steps
+# 9. Next Steps
 
 As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating Concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related Concerns and Avenues of Attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
 
 <!--<a name="#conclusions" / >-->
 
-# Conclusions
+# 10. Conclusions
 
 Open Science, despite having a culture of public data and open collaboration, still faces cybersecurity-related threats. This document aids Principal Investigators and their supporting IT professionals in assessing cybersecurity risks through a catalog of typical Open Science Assets and the common risks associated with those Assets.
 
 <!-- <a name="#cybersecurity-resources-for-open-science" / > -->
 
-# Cybersecurity Resources for Open Science
+# 11. Cybersecurity Resources for Open Science
 
 For projects that need assistance, here are some resources to consider:
 
@@ -350,7 +350,7 @@ For projects that need assistance, here are some resources to consider:
 
 
 
-# Acknowledgments
+# 12. Acknowledgments
 We thank the National Science Foundation (grant 1547272) for supporting our work.
 
 Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.  
@@ -359,7 +359,7 @@ TODO: Add thank you to presenters.
 
 Any opinions, findings, conclusions, or recommendations contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of any of the sponsors of this work, employers of the authors, or any other organization.
 
-# Contributing to this Document
+# 13. Contributing to this Document
 
 This document is hosting in GitHub to encourage the community to make contributions of new Assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
 
