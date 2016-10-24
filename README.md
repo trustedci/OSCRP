@@ -1,5 +1,5 @@
 # Open Science Cyberthreat Profile (OSCTP)
-Welcome to OSCTP, a project of the [Center for Trustworthy Scientific Cyberinfrastructure](http://trustedci.org), the [NSF](http://nsf.gov) Cybersecurity Center of Excellence.
+Welcome to OSCTP, a joint project of the [Center for Trustworthy Scientific Cyberinfrastructure](http://trustedci.org), the [NSF](http://nsf.gov) Cybersecurity Center of Excellence, and the [Department of Energy's Energy Sciences Network (ESnet)](https://www.es.net/).
 
 Over the course of the coming year, the OSCTP working group will develop a “threat profile for open science” and co-author a document describing that threat profile. The threat profile will be be a categorization of scientific assets and their common risks to science to greatly expedite risk management for open science projects and improve their cybersecurity.
 
