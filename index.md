@@ -49,13 +49,6 @@ Andrew Adams
 Michael Dopheide  
 Susan Sons (former)
 
-## Organizers
-
-* Sean Peisert
-* Von Welch
-* Michael Dopheide
-* Andrew Adams
-
 ## Questions?
 
 Contact us by emailing [osctp@trustedci.org](mailto:osctp@trustedci.org)
