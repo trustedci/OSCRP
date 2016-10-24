@@ -51,4 +51,4 @@ Susan Sons (former)
 
 ## Questions?
 
-Contact us by emailing [osctp@trustedci.org](mailto:osctp@trustedci.org)
+Contact us by emailing [oscrp@trustedci.org](mailto:oscrp@trustedci.org)
