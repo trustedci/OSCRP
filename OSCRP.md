@@ -353,7 +353,7 @@ For projects that need assistance, here are some resources to consider:
 # 12. Acknowledgments
 We thank the National Science Foundation (grant 1547272) for supporting our work.
 
-Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231.  
+Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231. Karen Stocks' work was supported by NSF OCE award 1327683 for the Science Support Office of the International Ocean Discovery Program. 
 
 This research was carried out in collaboration with the National Resource for Translational and Developmental Proteomics under Grant P41 GM108569 from the National Institute of General Medical Sciences, National Institutes of Health.
 
