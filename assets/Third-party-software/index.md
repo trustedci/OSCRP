@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3rd Party Software
-permalink: assets/Third-party-software.html
+permalink: assets/Third-party-software/index.html
 ---
 
 # 3rd Party Software
@@ -10,4 +10,4 @@ permalink: assets/Third-party-software.html
 
 Software developed external to the project.  This includes purchased to public-domain applications that the project leverages.
 
-![3rd Party Software](../diagrams/Third-party-software.png)
+![3rd Party Software](../../diagrams/Third-party-software.png)
