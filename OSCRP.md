@@ -246,28 +246,28 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ###### **Data** includes what we traditionally define as "data", i.e., raw data, derived data, as well as algorithms, protocols, configuration, accounting, personal or management data.
 
--   [*Public Data*](assets/Public%20Data.html): Published generated or collected Open Science data
+-   [*Public Data*](assets/Public-Data/): Published generated or collected Open Science data
 
--   [*Embargoed Data*](assets/Data.html): Open Science data that has not yet been publicly released
+-   [*Embargoed Data*](assets/Data/): Open Science data that has not yet been publicly released
 
--   [*Internal data*](assets/InternalData.html): Data that is never intended to be published.  This includes: generated or derived data (usually intermediate computational results), e-mails or notes
+-   [*Internal data*](assets/InternalData/): Data that is never intended to be published.  This includes: generated or derived data (usually intermediate computational results), e-mails or notes
 
--   [*Documentation*](assets/Documentation.html): Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of Assets
+-   [*Documentation*](assets/Documentation/): Manuals, wikis, blogs, etc. that facilitate the production, post-processing or management of Assets
 
--   [*Accounting Information*](assets/AccountingInformation.html): Logs and databases recording the production, post-processing or management of Assets
+-   [*Accounting Information*](assets/AccountingInformation/): Logs and databases recording the production, post-processing or management of Assets
 
--   [*For Approved Access Only*](assets/ForApprovedAccessOnly.html): Project/personnel data necessary for the Open Science mission
+-   [*For Approved Access Only*](assets/ForApprovedAccessOnly/): Project/personnel data necessary for the Open Science mission
 
 
 <!-- <a name="#facilities-assets" / > -->
 
 ## Facilities Assets
 
--   [*Facilities*](assets/Facilities.html): Physical storage, power & climate control used to house Assets
+-   [*Facilities*](assets/Facilities/): Physical storage, power & climate control used to house Assets
 
 <!--  Standard lab equipment-->
 
--   [*Staff computing & networking*](assets/Institution-systems.html): Institutional systems used by staff to access Assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage (also mailing lists, calendars)
+-   [*Staff computing & networking*](assets/Institution-systems/): Institutional systems used by staff to access Assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage (also mailing lists, calendars)
 
     - Note, the **risk** associated with this Asset is absorbed by the institution that owns them, not the project, but it is useful for the project to understand the greater risks involved 
 
@@ -275,23 +275,23 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## System and Hardware Assets
 
--   [*Networks*](assets/Networks.html): Infrastructure used to access or transport data
+-   [*Networks*](assets/Networks/): Infrastructure used to access or transport data
 
--   [*File-store*](assets/File%20Store.html): System to archive data
+-   [*File-store*](assets/File-Store/): System to archive data
 
--   [*Front-end*](assets/Front-end.html): System to access archived data, usually web-based
+-   [*Front-end*](assets/Front-end/): System to access archived data, usually web-based
 
--   [*Back-end*](assets/Back-end.html): System to search data, usually a database or source repository
+-   [*Back-end*](assets/Back-end/): System to search data, usually a database or source repository
 
--   [*User Portal*](assets/User-portal.html): System enabling users to initiate production or post-processing of data
+-   [*User Portal*](assets/User-portal/): System enabling users to initiate production or post-processing of data
 
--   [*Servers*](assets/Servers.html): Systems used to access, store, produce and/or manipulate other Assets
+-   [*Servers*](assets/Servers/): Systems used to access, store, produce and/or manipulate other Assets
 
--   [*Desktops*](assets/Desktops.html): Systems used to access, store, produce and/or manipulate other Assets
+-   [*Desktops*](assets/Desktops/): Systems used to access, store, produce and/or manipulate other Assets
 
--   [*Laptops*](assets/Laptops.html): Systems used to access, store, produce and/or manipulate other Assets
+-   [*Laptops*](assets/Laptops/): Systems used to access, store, produce and/or manipulate other Assets
 
--   [*Mobile devices*](assets/MobileDevices.html): Systems used to access other Assets (tablets, smartphones, smartwatches)
+-   [*Mobile devices*](assets/MobileDevices/): Systems used to access other Assets (tablets, smartphones, smartwatches)
 
 <!-- <a name="#software-assets" / > -->
 
@@ -299,7 +299,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*3rd Party*](assets/Third-party-software/): External applications, e.g., computation / analysis
 
--   [*Internal software*](assets/Internal-software.html): Applications produced internally, can include:
+-   [*Internal software*](assets/Internal-software/): Applications produced internally, can include:
 
     -   Restricted software ("secret sauce" - competitive/intellectual property)
 
@@ -311,21 +311,21 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Instruments
 
--   [*Sensors*](assets/Sensors.html): Sensor instruments (e.g., network-connected neutrino collectors)
+-   [*Sensors*](assets/Sensors/): Sensor instruments (e.g., network-connected neutrino collectors)
 
--   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Cyber-Physical%20Control%20System.html)
+-   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Cyber-Physical-Control-System/)
 
 <!-- <a name="#intangible-and-human-assets" / > -->
 
 ## Intangible and Human Assets
 
--   [*Project Reputation*](assets/Project-Reputation.html): Credibility associated with an organization
+-   [*Project Reputation*](assets/Project-Reputation/): Credibility associated with an organization
 
--   [*Staff*](assets/Staff.html): People involved in the production, post-processing or management of Assets
+-   [*Staff*](assets/Staff/): People involved in the production, post-processing or management of Assets
 
--   [*Collaboration*](assets/Collaboration.html): Meetings and agendas used by staff to coordinate the production, post-processing or management of Assets
+-   [*Collaboration*](assets/Collaboration/): Meetings and agendas used by staff to coordinate the production, post-processing or management of Assets
 
--   [*Workflow*](assets/Workflow.html): The process or protocols by which science is achieved within a project.
+-   [*Workflow*](assets/Workflow/): The process or protocols by which science is achieved within a project.
 
 <!--<a name="#next-steps" / > -->
 
