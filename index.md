@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Open Science Cyber Threat Profile Homepage
+title: Open Science Cyber Risk Profile Homepage
 ---
 
-# OSCTP: The Open Science Cyber Threat Profile
+# OSCTP: The Open Science Cyber Risk Profile
 
 ## Our Product: The Open Science Risk Profile
 
 * [The Open Science Cyber Risk Profile](OSCRP.html)
 
-## About OSCTP
+## About OSCRP
 
-Welcome to OSCTP, a joint project of the [Center for Trustworthy Scientific Cyberinfrastructure](http://trustedci.org), the [NSF](http://nsf.gov) Cybersecurity Center of Excellence, and the [Department of Energy's Energy Sciences Network (ESnet)](https://www.es.net/).
+Welcome to OSCRP, a joint project of the [Center for Trustworthy Scientific Cyberinfrastructure](http://trustedci.org), the [NSF](http://nsf.gov) Cybersecurity Center of Excellence, and the [Department of Energy's Energy Sciences Network (ESnet)](https://www.es.net/).
 
-Over the course of the coming year, the OSCTP working group will develop a “threat profile for open science” and co-author a document describing that threat profile. The threat profile will be be a categorization of scientific assets and their common risks to science to greatly expedite risk management for open science projects and improve their cybersecurity.
+Over the course of the coming year, the OSCRP working group will develop a “risk profile for open science” and co-author a document describing that risk profile. The risk profile will be be a categorization of scientific assets and their common risks to science to greatly expedite risk management for open science projects and improve their cybersecurity.
 
-The working group threat profile is scoped to science projects that are “open,” that is unclassified. E.g. funded by [NSF](http://nsf.gov), [DOE ASCR](http://science.energy.gov/ascr), [NIH](http://www.nih.gov).  (They may be under limited-time scientific embargo, however, and may include PHI, such as with NIH research).
+The working group risk profile is scoped to science projects that are “open,” that is unclassified. E.g. funded by [NSF](http://nsf.gov), [DOE ASCR](http://science.energy.gov/ascr), [NIH](http://www.nih.gov).  (They may be under limited-time scientific embargo, however, and may include PHI, such as with NIH research).
 
 We will take an asset/impact-oriented approach.  Explicitly, we are not concerned about threat actors or specific attack methods, but what assets open science projects have, what harms could befall those assets, and what the impacts from those harms would be to the project.
 
