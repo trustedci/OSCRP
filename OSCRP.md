@@ -297,7 +297,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Software Assets
 
--   [*3rd Party*](assets/Third-party-software.html): External applications, e.g., computation / analysis
+-   [*3rd Party*](assets/Third-party-software/): External applications, e.g., computation / analysis
 
 -   [*Internal software*](assets/Internal-software.html): Applications produced internally, can include:
 
