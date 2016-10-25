@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 3rd Party Software
-permalink: assets/Third-party-software/index.md
+permalink: assets/Third-party-software/index.html
 ---
 
 # 3rd Party Software
