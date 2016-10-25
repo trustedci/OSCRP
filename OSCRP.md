@@ -313,7 +313,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Sensors*](assets/Sensors/): Sensor instruments (e.g., network-connected neutrino collectors)
 
--   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Cyber-Physical-Control-System/)
+-   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Network-connected-scientific-control-systems/)
 
 <!-- <a name="#intangible-and-human-assets" / > -->
 
