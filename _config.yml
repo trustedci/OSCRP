@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Open Science Cyber Risk Profile
-email: your-email@domain.com
+email: oscrp@trustedci.org
 description: > # this means to ignore newlines until "baseurl:"
- Welcome to OSCRP, a project of the Center for Trustworthy Scientific  Cyberinfrastructure, the NSF Cybersecurity Center of Excellence.
+ Welcome to OSCRP, a joint project of the NSF Cybersecurity of Excellence and the Department of Engery's Energy Science Network (ESnet).
 baseurl: "/OSCRP" # the subpath of your site, e.g. /blog
 url: "http://trustedci.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
