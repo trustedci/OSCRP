@@ -3,7 +3,7 @@ layout: default
 title: Open Science Cyber Risk Profile Homepage
 ---
 
-# OSCTP: The Open Science Cyber Risk Profile
+# OSCRP: The Open Science Cyber Risk Profile
 
 ## Our Product: The Open Science Risk Profile
 
