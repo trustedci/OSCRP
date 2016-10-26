@@ -40,4 +40,4 @@ Susan Sons (former)
 
 Contact us by emailing [oscrp@trustedci.org](mailto://oscrp@trustedci.org).
 
-![LBNL Logo](https://github.com/trustedci/OSCRP/blob/master/images/Berkeley_Lab_Logo_Small.png) ![ESnet Logo](https://github.com/trustedci/OSCRP/blob/master/images/esnet-logo.png)
+![CTSC Logo](https://github.com/trustedci/OSCRP/blob/master/images/CTSC.jpg) ![LBNL Logo](https://github.com/trustedci/OSCRP/blob/master/images/Berkeley_Lab_Logo_Small.png) ![ESnet Logo](https://github.com/trustedci/OSCRP/blob/master/images/esnet-logo.png)
