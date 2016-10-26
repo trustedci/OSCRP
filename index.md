@@ -52,3 +52,5 @@ Susan Sons (former)
 ## Questions?
 
 Contact us by emailing [oscrp@trustedci.org](mailto:oscrp@trustedci.org)
+
+![CTSC Logo](https://github.com/trustedci/OSCRP/blob/master/images/CTSC.jpg) ![LBNL Logo](https://github.com/trustedci/OSCRP/blob/master/images/Berkeley_Lab_Logo_Small.png) ![ESnet Logo](https://github.com/trustedci/OSCRP/blob/master/images/esnet-logo.png)
