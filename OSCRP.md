@@ -120,8 +120,8 @@ Concerns of malicious tampering have historically been organized into three cate
 
 **5-3.** A system intended to control a networked sensor array was in the process of being set up when its default login credentials were successfully guessed by a remote attacker. The intruder installed multiple tools on the compromised system, including a utility that would allow control over the hacked system to be retained even after the account used for the initial intrusion was disabled. Using this utility, the intruder issued a remote command to the compromised controller system that invoked a second tool, a "flooder" intended for use in a network-based denial-of-service attack against an off-site target. Once activated, the flooder generated a tremendous volume of outbound attack traffic, saturating its own network and rendering the local site's own border link unusable. Only after the site's network external network connectivity was lost was the compromised server and its running flooder tool discovered.
 
-**Asset:** Network-connected sensor control system; Network infrastructure
-**Concern:** Inaccessible network
+**Asset:** Network-connected sensor control system; Network infrastructure  
+**Concern:** Inaccessible network  
 **Consequences:** Lost science time, affecting unrelated projects at the same facility, reduced reputation
 
 <!-- <a name="#possibly-targeted" / > -->
@@ -130,8 +130,8 @@ Concerns of malicious tampering have historically been organized into three cate
 
 **5-4.** A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers were used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while IT and Information Security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials. Investigation and remediation were complicated further at University A because the research project these systems served involved a physically remote location with poor network connectivity. At the time the intrusion was discovered, all personnel directly familiar with the configuration and management of these systems were at the remote location, with little in the way of explanatory documentation left for local IT staff to rely on while attempting to investigate and resolve the incident. Downtime, widespread credential changes, and general confusion all impacted the research project.
 
-**Assets:** Servers (compute clusters), staff computing & networking and networks
-**Concerns:** Devices inaccessible and devices exposing sensitive information and transport prevented
+**Assets:** Servers (compute clusters), staff computing & networking and networks  
+**Concerns:** Devices inaccessible and devices exposing sensitive information and transport prevented  
 **Consequences:** Lost science time
 
 <!-- <a name="#targeted" / > -->
