@@ -244,7 +244,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Data Assets
 
-### **Data** includes what we traditionally define as "data", i.e., raw data, derived data, as well as algorithms, protocols, configuration, accounting, personal or management data.
+**Data** includes what we traditionally define as "data", i.e., raw data, derived data, as well as algorithms, protocols, configuration, accounting, personal or management data.
 
 -   [*Public Data*](assets/Public-Data/): Published generated or collected Open Science data
 
