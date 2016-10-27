@@ -265,7 +265,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Facilities*](assets/Facilities/): Physical storage, power & climate control used to house Assets
 
-<!--  Standard lab equipment-->
+<!--  Institutional owned equipment-->
 
 -   [*Staff computing & networking*](assets/Institution-systems/): Institutional systems used by staff to access Assets, e.g., desktops, laptops, smartphones and the infrastructures they leverage (also mailing lists, calendars)
 
@@ -326,6 +326,8 @@ In this section we list common Open Science Assets and provide a diagram for eac
 -   [*Collaboration*](assets/Collaboration/): Meetings and agendas used by staff to coordinate the production, post-processing or management of Assets
 
 -   [*Workflow*](assets/Workflow/): The process or protocols by which science is achieved within a project.
+
+-   [*Financial*](assets/Financial/): The financial assets owned by a project.
 
 <!--<a name="#next-steps" / > -->
 
