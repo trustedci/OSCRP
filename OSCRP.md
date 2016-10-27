@@ -298,7 +298,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Software Assets
 
--   [*3rd Party*](assets/Third-party-software/): External applications, algorithms, models, e.g., computation / analysis, used by the project.
+-   [*3rd Party*](assets/Third-party-software/): External applications, algorithms, models, e.g., computation / analysis, used by the project
 
 -   [*Internal software*](assets/Internal-software/): Applications, algorithms, or models produced internally, can include:
 
@@ -326,9 +326,9 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Collaboration*](assets/Collaboration/): Meetings and agendas used by staff to coordinate the production, post-processing or management of Assets
 
--   [*Workflow*](assets/Workflow/): The process or protocols by which science is achieved within a project.
+-   [*Workflow*](assets/Workflow/): The process or protocols by which science is achieved within a project
 
--   [*Financial*](assets/Financial/): The financial assets owned by a project.
+-   [*Financial*](assets/Financial/): The financial assets owned by a project
 
 <!--<a name="#next-steps" / > -->
 
