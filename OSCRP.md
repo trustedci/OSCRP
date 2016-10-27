@@ -91,7 +91,7 @@ We assert that something on the order of 80% of "good computer security" results
 
 <!--<a name="#bad-things-can-happen-to-good-science" / >-->
 
-# 5. Bad Things Can Happen to Good Science
+## 5. Bad Things Can Happen to Good Science
 
 There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. Several real examples, with identifying details removed, are described below. They show that the damage can range
 from simple disruption and some loss of work time to significant financial resources spent to repair systems and recover scientific data, significant impact on those projects being able to fulfill their mission. 
@@ -178,7 +178,7 @@ The following are the intended steps for using this document. The expectation is
 
 <!-- <a name="#embargoed-data-case-study" / > -->
 
-# 7. Usage Example: Embargoed Data Case Study
+## 7. Usage Example: Embargoed Data Case Study
 
 To demonstrate how to carry out the risk profile steps, we'll pretend we are the PI for a small science project that has two telescopes tracking changes in the night sky over time.  In *Step 1* of the process flow, we identify the stakeholders as our immediate project team, a collaborating research team, and the institutions that house the two telescopes.  The stakeholders may be brought in to help with the remaining steps as well as to discuss the results.
 
@@ -236,7 +236,7 @@ of Attack may be possible that are unique to your environment.
    
 <!-- <a name="#common-open-science-assets" / > -->
 
-# 8. Common Open Science Assets 
+## 8. Common Open Science Assets 
 
 In this section we list common Open Science Assets and provide a diagram for each that provides a connection between the Concerns and Consequences from the perspective of the project mission and the Avenues of Attack that provide guidance to the cybersecurity lead in mitigating the Concerns regarding the Asset.
 
@@ -331,19 +331,19 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 <!--<a name="#next-steps" / > -->
 
-# 9. Next Steps
+## 9. Next Steps
 
 As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating Concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related Concerns and Avenues of Attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
 
 <!--<a name="#conclusions" / >-->
 
-# 10. Conclusions
+## 10. Conclusions
 
 Open Science, despite having a culture of public data and open collaboration, still faces cybersecurity-related threats. This document aids Principal Investigators and their supporting IT professionals in assessing cybersecurity risks through a catalog of typical Open Science Assets and the common risks associated with those Assets.
 
 <!-- <a name="#cybersecurity-resources-for-open-science" / > -->
 
-# 11. Cybersecurity Resources for Open Science
+## 11. Cybersecurity Resources for Open Science
 
 For projects that need assistance, here are some resources to consider:
 
@@ -352,7 +352,7 @@ For projects that need assistance, here are some resources to consider:
 
 
 
-# 12. Acknowledgments
+## 12. Acknowledgments
 We thank the National Science Foundation (grant 1547272) for supporting our work.
 
 Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231. Karen Stocks' work was supported by NSF OCE award 1327683 for the Science Support Office of the International Ocean Discovery Program. 
@@ -363,7 +363,7 @@ The working group thanks Tanya Berger-Wolf, Matt Jones, Fred Luehring, and Alex 
 
 Any opinions, findings, conclusions, or recommendations contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of any of the sponsors of this work, employers of the authors, or any other organization.
 
-# 13. Contributing to this Document
+## 13. Contributing to this Document
 
 This document is hosting in GitHub to encourage the community to make contributions of new Assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
 
