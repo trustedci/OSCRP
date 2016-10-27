@@ -16,7 +16,7 @@ title: Open Science Cyber Risk Profile
 		- [Possibly targeted](#possibly-targeted)
 		- [Targeted](#targeted)
 6. [How to Use this Document](#how-to-use-this-document)
-7. [Usage Example: Embargoed Data Case Study](#usage-example-embargoed Data-case-study)
+7. [Usage Example: Embargoed Data Case Study](#usage-example-embargoed-data-case-study)
 8. [Common Open Science Assets](#common-open-science-assets)
 	* [Data Assets](#data-assets)
 	* [Facilities Assets](#facilities-assets)
