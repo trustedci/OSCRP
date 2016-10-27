@@ -297,13 +297,13 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Software Assets
 
--   [*3rd Party*](assets/Third-party-software/): External applications, e.g., computation / analysis
+-   [*3rd Party*](assets/Third-party-software/): External applications, algorithms, models, e.g., computation / analysis, used by the project.
 
--   [*Internal software*](assets/Internal-software/): Applications produced internally, can include:
+-   [*Internal software*](assets/Internal-software/): Applications, algorithms, or models produced internally, can include:
 
-    -   Restricted software ("secret sauce" - competitive/intellectual property)
+    -   Restricted software, algorithms, or models ("secret sauce" - competitive/intellectual property)
 
-    -   Non-restricted software developed and used by the organization
+    -   Non-restricted software, algorithms, or models developed and used by the organization
 
 <!-- -   Middleware: ??? -->
 
