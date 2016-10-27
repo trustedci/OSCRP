@@ -364,7 +364,7 @@ The working group thanks Tanya Berger-Wolf, Matt Jones, Fred Luehring, and Alex 
 
 Any opinions, findings, conclusions, or recommendations contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of any of the sponsors of this work, employers of the authors, or any other organization.
 
-## 13. Licsense
+## 13. License
 
 This document is distributed under a [Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).
 
