@@ -28,7 +28,8 @@ title: Open Science Cyber Risk Profile
 10. [Conclusions](#conclusions)
 11. [Cybersecurity Resources for Open Science](#cybersecurity-resources-for-open-science)
 12. [Acknowledgments](#acknowledgments)
-13. [Contributing to this Document](#contributing-to-this-document)
+13. [License](#license)
+14. [Contributing to this Document](#contributing-to-this-document)
 
 
 <!--<a name="#authors" / >-->
@@ -363,7 +364,11 @@ The working group thanks Tanya Berger-Wolf, Matt Jones, Fred Luehring, and Alex 
 
 Any opinions, findings, conclusions, or recommendations contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of any of the sponsors of this work, employers of the authors, or any other organization.
 
-## 13. Contributing to this Document
+## 13. Licsense
+
+This document is distributed under a [Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).
+
+## 14. Contributing to this Document
 
 This document is hosting in GitHub to encourage the community to make contributions of new Assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
 
