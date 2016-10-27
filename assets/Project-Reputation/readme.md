@@ -6,4 +6,4 @@ permalink: assets/Project-Reputation/
 
 # Project Reputation
 
-![Project-Reputation](../../diagrams/Project%20Reputation.png)
+![Project-Reputation](../../diagrams/ProjectReputation.png)
