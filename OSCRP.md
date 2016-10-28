@@ -5,6 +5,8 @@ title: Open Science Cyber Risk Profile
 
 # Open Science Cyber Risk Profile
 
+{{site.time}}
+
 ## Table of Contents
 1. [Authors](#authors)
 2. [Overview and Goals](#overview-and-goals)
