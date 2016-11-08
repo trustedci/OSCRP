@@ -27,6 +27,13 @@ For assets that are commodity IT or for which a risk profile already exists, thi
 
 “Assets” are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.
 
+## How to Contribute?
+
+This document is hosted in GitHub to encourage the community to make contributions of new Assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
+
+1. Point out a problem or make a suggestion by [creating a issue](https://github.com/trustedci/OSCRP/issues).
+2. Author changes or additions by [creating a fork and push your changes](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/).
+
 ## Working Group
 
 *Core members:*  
