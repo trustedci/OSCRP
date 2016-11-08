@@ -129,8 +129,8 @@ Concerns of malicious tampering have historically been organized into three cate
 
 **5-4.** A lab member received an email message stating that a bill is overdue and referencing an attached invoice. The attachment included an embedded malicious Word macro, which downloads and installs a program that encrypts commonly-used data files located on all mounted drives ("ransomware"). The computer on which the lab member opened the attachment was a personal laptop on a home network. The lab member closed the laptop while the ransomware was still executing, not realizing anything was wrong. At work, the lab member opened up the laptop and mounted the lab's research file share as usual. All lab members had read/write permissions to this volume, so the ransomware, executing under the lab member's permissions, encrypted all data files present on the research file share. Rather than attempt to pay the amount in Bitcoin demanded by the ransom letter left on the file share by the malicious software, the lab elected to restore the volume from backup, and live with the loss of any data files created between time of encryption and the most recent backup.
 
-**Asset:** Network-attached storage device; lab member's personal computer
-**Concern:** Inaccessible or lost research data
+**Asset:** Network-attached storage device; lab member's personal computer  
+**Concern:** Inaccessible or lost research data  
 **Consequences:** Lost science time
 
 <!-- <a name="#possibly-targeted" / > -->
