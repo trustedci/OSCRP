@@ -381,4 +381,15 @@ This document is distributed under a [Attribution 4.0 International (CC BY 4.0) 
 This document is [hosted in GitHub](https://github.com/trustedci/OSCRP) to encourage the community to make contributions of new Assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
 
 1. Point out a problem or make a suggestion by [creating a issue](https://github.com/trustedci/OSCRP/issues).
-2. Author changes or additions by [creating a fork and push your changes](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/).
+2. Author changes or additions by [creating a fork and push your changes](https://help.github.com/categories/collaborating-with-issues-and-pull-requests/). You can use a number of methods for make changes and pushing them (e.g. cloning the repository and editing the markdown locally). A simple workflow that uses just your browser follows.
+  1. Once you have a fork, edit a markdown file (.MD) in the main OSCRP repository by clicking on it and then selecting edit ("pencil" icon in upper right). E.g https://github.com/trustedci/OSCRP/edit/master/OSCRP.md
+  2. Make your changes to the markdown (you may find a [markdown cheatsheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf) usefule.
+  3. When you are done, propose your the changes using the form at the bottom of the page.
+    1. Enter a one-line description of your changes in the first text box.
+    2. You can enter additional text in the second box. E.g. if your change is in reference to a GitHub issue, referencing that issue is a good idea.
+    3. Click on "Propose file change"
+  4. You should now see a "Open a Pull Request" window in your browser. It should be populated with your comments from the previous window and ready to go, though you can add more comments if you wish.
+  5. Click on "Create Pull Request"
+  6. You should now see a "Comparing changes" page showing you the details of the changes you are proposing. Please review them and make sure they look right. If so, click "Create Pull Request". If not, click on your browser's Back button and continuing editing.
+  7. You should now see a "Open a Pull Request" window, which should be populated with the comments you previously entered. This is your last chance to add any additional detail you want the OSCRP maintainers and others looking at your request to know. When you are ready, click on "Create Pull Request"
+  8. You should now see a page with your submitting pull request. The OSCRP maintainers will have been notified and will examine your proposed changes and get back to you.
