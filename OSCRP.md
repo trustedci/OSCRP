@@ -179,11 +179,11 @@ The following are the intended steps for using this document. The expectation is
 
 4.  For each relevant Concern note the vectors that could cause the Concern to be realized.
 
-**While *mitigations* are outside the scope of this document, the process of identifying key Assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
-
 5.  Work with IT professionals to agree on and implement agreed controls (protections against Concerns) or other means of mitigating risk.
 
 6.  Repeat this assessment annually, or more frequently if the project’s Assets or risks have changed.
+
+**While *mitigations* are outside the scope of this document, the process of identifying key Assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
 
 <!-- <a name="#embargoed-data-case-study" / > -->
 
