@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Networks
+title: Embargoed Data
 permalink: assets/Data/
 ---
 
@@ -17,4 +17,4 @@ Any type of data element ranging from raw instrument data to finished scientific
 *Regulated Data* - Data which will likely never be made public due to government or other regulation, such as PII and HIPAA data.  Release of such data may result in legal action.
 
 
-![Networks](../../diagrams/Embargoed_Data.png)
+![Embargoed Data](../../diagrams/Embargoed_Data.png)
