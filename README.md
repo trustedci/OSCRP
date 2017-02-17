@@ -25,7 +25,7 @@ Steve Schwab, ISI
 Karen Stocks, UCSD  
 
 *Contributing members:*  
-Ilkay Atlintas, SDSC  
+Ilkay Altintas, SDSC  
 James Cuff, Harvard  
 Warren Raquel, NCSA/UIUC  
 Reagan Moore, iRods  
