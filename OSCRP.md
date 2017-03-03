@@ -358,6 +358,8 @@ For projects that need assistance, here are some resources to consider:
 
 -   The NSF Cybersecurity Center of Excellence: [*http://trustedci.org/help/*](http://trustedci.org/help/)
 -   [The EDUCAUSE IT Risk Register](https://library.educause.edu/resources/2015/10/it-risk-register)
+-  [HEISC's Information Security Guide](https://spaces.internet2.edu/display/2014infosecurityguide/Home)
+
 
 
 
