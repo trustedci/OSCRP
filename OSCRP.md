@@ -44,7 +44,7 @@ For the lastest version and more information about the group, please see [*http:
 
 <!--<a name="#executive-summary" / >-->
 
-## 2. Overview and Goals
+## <a name="overview-and-goals"></a>2. Overview and Goals
 
 While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Risk Profile (OSCRP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science Assets and the risks associated with those Assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying Assets and provide guidance in completing a Risk Assessment Table.
 
@@ -68,7 +68,7 @@ Other goals of the document include:
 
 <!-- <a name="#who-this-document-is-intended-for" / > -->
 
-## 3. Who This Document is Intended For
+## <a name="who-this-document-is-intended-for"><a/>3. Who This Document is Intended For
 
 The primary audience of this document is principal investigators (PIs) and information technology (IT) professionals involved in Open Science projects that rely on computing infrastructure (defined broadly as computers, networking, sensors, control systems, etc.) Open Science is defined here as a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. Open Science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
 
