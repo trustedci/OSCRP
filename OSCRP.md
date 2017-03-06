@@ -78,6 +78,8 @@ A secondary audience for this document is institutional IT professionals (e.g., 
 
 We do make the assumption that the institution where Open Science takes place has some kind of security professional at some level,  in addition to a defined or de facto IT person, regardless of whether that person is directly attached to the science project or is at the institutional level.
 
+**If you utilize this document and find it useful, your acknowledgement of that (and other feedback) is requested by sending an email to *info@trustedci.org***
+
 <!-- <a name="#introduction" / >-->
 
 ## 4. Introduction
