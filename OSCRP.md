@@ -82,7 +82,7 @@ We do make the assumption that the institution where Open Science takes place ha
 
 <!-- <a name="#introduction" / >-->
 
-## 4. Introduction
+## <a name="introduction"></a>4. Introduction
 
 We read stories daily about computer security incidents. Home Depot. Sony. The U.S. Office of Personnel Management. Hospitals getting hit by ransomware. All of those organizations take security seriously, but are still vulnerable.
 
@@ -96,7 +96,7 @@ We assert that something on the order of 80% of "good computer security" results
 
 <!--<a name="#bad-things-can-happen-to-good-science" / >-->
 
-## 5. Bad Things Can Happen to Good Science
+## <a name="bad-things-can-happen-to-good-science"><a/>5. Bad Things Can Happen to Good Science
 
 There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. Several real examples, with identifying details removed, are described below. They show that the damage can range
 from simple disruption and some loss of work time to significant financial resources spent to repair systems and recover scientific data, significant impact on those projects being able to fulfill their mission. 
@@ -105,12 +105,12 @@ Concerns of malicious tampering have historically been organized into three cate
 
 <!-- <a name="#examples-of-computer-security-incidents-affecting-research" / > -->
 
-## Examples of Computer Security Incidents Affecting Research
+## <a name="examples-of-computer-security-incidents-affecting-research"></a>Examples of Computer Security Incidents Affecting Research
 
 
 <!-- <a name="#untargeted,-but-disruptive" / > -->
 
-### Untargeted, but disruptive
+### <a name="untargeted-but-disruptive"><a/>Untargeted, but disruptive
 
 **5-1.** A vulnerability in the wiki software used by a microelectronics research lab was leveraged by attackers to host pornographic web pages on the wiki, and to send out a large volume of explicit pornographic email messages. The wiki was taken down by its administrators multiple times in an effort to find and remove the underlying exploit left in place by the attackers, which allowed them to continue abusing the site even after initial discovery. The downtime of this wiki, which was heavily used by the lab members and their many external collaborators, had a significant impact on research productivity.  
 **Asset:** Documentation (wiki)  
@@ -137,7 +137,7 @@ Concerns of malicious tampering have historically been organized into three cate
 
 <!-- <a name="#possibly-targeted" / > -->
 
-### Possibly targeted
+### <a name="possibly-targeted"></a>Possibly targeted
 
 **5-5.** A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers were used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while IT and Information Security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials. Investigation and remediation were complicated further at University A because the research project these systems served involved a physically remote location with poor network connectivity. At the time the intrusion was discovered, all personnel directly familiar with the configuration and management of these systems were at the remote location, with little in the way of explanatory documentation left for local IT staff to rely on while attempting to investigate and resolve the incident. Downtime, widespread credential changes, and general confusion all impacted the research project.
 
@@ -147,7 +147,7 @@ Concerns of malicious tampering have historically been organized into three cate
 
 <!-- <a name="#targeted" / > -->
 
-### Targeted
+### <a name="targeted"></a>Targeted
 
 **5-6.** A politically controversial project (the building of a new large-scale telescope) was subjected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.  
 **Assets:** Servers (mail) and networks  
@@ -163,7 +163,7 @@ The point we emphasize with these examples is that computer security-related Con
 
 <!-- <a name="#how-to-use-this-document" / > -->
 
-## 6. How to Use this Document
+## <a name="how-to-use-this-document"></a>6. How to Use this Document
 
 The following sections of this document provides a list of common Open Science Assets. Each Asset is critical to a project's science mission in some way such that it represents a set of Concerns. That is, if the Asset is negatively impacted in some manner, it reduces the project's ability to carry out its mission.
 
@@ -189,7 +189,7 @@ The following are the intended steps for using this document. The expectation is
 
 <!-- <a name="#embargoed-data-case-study" / > -->
 
-## 7. Usage Example: Embargoed Data Case Study
+## <a name="embargoed-data-case-study"></a>7. Usage Example: Embargoed Data Case Study
 
 To demonstrate how to carry out the risk profile steps, we'll pretend we are the PI for a small science project that has two telescopes tracking changes in the night sky over time.  In *Step 1* of the process flow, we identify the stakeholders as our immediate project team, a collaborating research team, and the institutions that house the two telescopes.  The stakeholders may be brought in to help with the remaining steps as well as to discuss the results.
 
@@ -247,11 +247,11 @@ of Attack may be possible that are unique to your environment.
    
 <!-- <a name="#common-open-science-assets" / > -->
 
-## 8. Common Open Science Assets 
+## <a name="common-open-science-assets"></a>8. Common Open Science Assets 
 
 In this section we list common Open Science Assets and provide a diagram for each that provides a connection between the Concerns and Consequences from the perspective of the project mission and the Avenues of Attack that provide guidance to the cybersecurity lead in mitigating the Concerns regarding the Asset.
 
-<!-- <a name="#data-assets" / > -->
+<!-- <a name="data-assets" / > -->
 
 ## Data Assets
 
@@ -270,7 +270,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 -   [*For Approved Access Only*](assets/ForApprovedAccessOnly/): Project/personnel data necessary for the Open Science mission
 
 
-<!-- <a name="#facilities-assets" / > -->
+<!-- <a name="facilities-assets" / > -->
 
 ## Facilities Assets
 
@@ -282,7 +282,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
     - Note, the **risk** associated with this Asset is absorbed by the institution that owns them, not the project, but it is useful for the project to understand the greater risks involved 
 
-<!-- <a name="#system-and-hardware-assets" / > -->
+<!-- <a name="system-and-hardware-assets" / > -->
 
 ## System and Hardware Assets
 
@@ -304,7 +304,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Mobile devices*](assets/MobileDevices/): Systems used to access other Assets (tablets, smartphones, smartwatches)
 
-<!-- <a name="#software-assets" / > -->
+<!-- <a name="software-assets" / > -->
 
 ## Software Assets
 
@@ -318,7 +318,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 <!-- -   Middleware: ??? -->
 
-<!-- <a name="#instruments" / > -->
+<!-- <a name="instruments" / > -->
 
 ## Instruments
 
@@ -326,7 +326,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Network-connected scientific control systems (e.g., microscopes, telescopes, light sources, particle accelerators)*](assets/Network-connected-scientific-control-systems/)
 
-<!-- <a name="#intangible-and-human-assets" / > -->
+<!-- <a name="intangible-and-human-assets" / > -->
 
 ## Intangible and Human Assets
 
@@ -342,19 +342,19 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 <!--<a name="#next-steps" / > -->
 
-## 9. Next Steps
+## <a name="next-steps"></a>9. Next Steps
 
 As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating Concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related Concerns and Avenues of Attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
 
 <!--<a name="#conclusions" / >-->
 
-## 10. Conclusions
+## <a name="conclusions"></a>10. Conclusions
 
 Open Science, despite having a culture of public data and open collaboration, still faces cybersecurity-related threats. This document aids Principal Investigators and their supporting IT professionals in assessing cybersecurity risks through a catalog of typical Open Science Assets and the common risks associated with those Assets.
 
 <!-- <a name="#cybersecurity-resources-for-open-science" / > -->
 
-## 11. Cybersecurity Resources for Open Science
+## <a name="cybersecurity-resources-for-open-science"></a>11. Cybersecurity Resources for Open Science
 
 For projects that need assistance, here are some resources to consider:
 
@@ -363,9 +363,7 @@ For projects that need assistance, here are some resources to consider:
 -  [HEISC's Information Security Guide](https://spaces.internet2.edu/display/2014infosecurityguide/Home)
 
 
-
-
-## 12. Acknowledgments
+## <a name="acknowledgments"></a>12. Acknowledgments
 We thank the National Science Foundation (grant 1547272) for supporting our work.
 
 Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231. Karen Stocks' work was supported by NSF OCE award 1327683 for the Science Support Office of the International Ocean Discovery Program. 
@@ -376,11 +374,11 @@ The working group thanks Tanya Berger-Wolf, Matt Jones, Fred Luehring, and Alex 
 
 Any opinions, findings, conclusions, or recommendations contained herein are those of the authors and should not be interpreted as necessarily representing the official policies or endorsements, either expressed or implied, of any of the sponsors of this work, employers of the authors, or any other organization.
 
-## 13. License
+## <a name="license"></a>13. License
 
 This document is distributed under a [Attribution 4.0 International (CC BY 4.0) License](https://creativecommons.org/licenses/by/4.0/).
 
-## 14. Contributing to this Document
+## <a name="contributing-to-this-document"></a>14. Contributing to this Document
 
 This document is [hosted in GitHub](https://github.com/trustedci/OSCRP) to encourage the community to make contributions of new Assets and other improvements. One needs [a free GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to contribute. Your options for doing so are:
 
