@@ -5,8 +5,6 @@ title: Open Science Cyber Risk Profile
 
 # Open Science Cyber Risk Profile
 
-{{ site.time | date_to_long_string }}
-
 ## Table of Contents
 1. [Authors](#authors)
 2. [Overview and Goals](#overview-and-goals)
@@ -38,9 +36,9 @@ title: Open Science Cyber Risk Profile
 
 ## <a name="authors"></a>1. Authors
 
-This OSCRP is a product of the OSCRP working group. The OSCRP working group is led by [*Sean Peisert*](http://crd.lbl.gov/Q/peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from ESnet and [*Von Welch*](https://cacr.iu.edu/about/people/administration/von-welch.php), [*Andrew Adams*](http://staff.psc.edu/akadams/), and [*Susan Sons*](https://cacr.iu.edu/about/people/staff/susan-sons.php) from the NSF Cybersecurity Center of Excellence. Core members of the working group are: [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue HUBzero)*](https://hubzero.org/members/1292), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X). Contributing members are [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Reagan Moore (iRods)*](http://irods.org/2016/06/profile-of-a-data-science-pioneer-dr-reagan-moore/), [*Warren Raquel (NCSA)*](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel).
+This OSCRP is a product of the OSCRP working group. The OSCRP working group is led by [*Sean Peisert*](http://crd.lbl.gov/Q/peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from ESnet and [*Von Welch*](https://cacr.iu.edu/about/people/administration/von-welch.php), [*Andrew Adams*](https://www.psc.edu/staff/akadams), and [*Susan Sons*](https://cacr.iu.edu/about/people/staff/susan-sons.php) from the NSF Cybersecurity Center of Excellence. Core members of the working group are: [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue HUBzero)*](https://hubzero.org/members/1292), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X). Contributing members are [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Reagan Moore (iRods)*](http://irods.org/2016/06/profile-of-a-data-science-pioneer-dr-reagan-moore/), [*Warren Raquel (NCSA)*](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel).
 
-For the lastest version and more information about the group, please see [*http://trustedci.github.io/OSCRP/*](http://trustedci.github.io/OSCRP/)
+This release is dated {{ site.time | date_to_long_string }}.  The latest version of the document can be found at [*http://trustedci.github.io/OSCRP/OSCRP.html](http://trustedci.github.io/OSCRP/OSCRP.html).  For more information about the group, please see [*http://trustedci.github.io/OSCRP/*](http://trustedci.github.io/OSCRP/).
 
 <!--<a name="#executive-summary" / >-->
 
