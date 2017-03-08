@@ -3,7 +3,7 @@ Welcome to OSCRP, a joint project of the [Center for Trustworthy Scientific Cybe
 
 Over the course of 2016, the CTSC and ESnet collaborated with research and education community leaders to develop a “risk profile for open science” to formally capture and benchmark this expertise, allowing other organizations to apply these best practices more broadly. The risk profile is a categorization of scientific assets and their common risks to science to greatly expedite risk management for open science projects and improve their cybersecurity.
 
-The risk profile (found at [http://trustedci.github.io/OSCRP/OSCRP.html](http://trustedci.github.io/OSCRP/OSCRP.html)) is scoped to science projects that are “open,” that is unclassified. E.g. funded by [NSF](http://nsf.gov), [DOE ASCR](http://science.energy.gov/ascr), [NIH](http://www.nih.gov).  (They may be under limited-time scientific embargo, however, and may include PHI, such as with NIH research).
+The risk profile (found at [https://trustedci.github.io/OSCRP/OSCRP.html](https://trustedci.github.io/OSCRP/OSCRP.html)) is scoped to science projects that are “open,” that is unclassified. E.g. funded by [NSF](http://nsf.gov), [DOE ASCR](http://science.energy.gov/ascr), [NIH](http://www.nih.gov).  (They may be under limited-time scientific embargo, however, and may include PHI, such as with NIH research).
 
 We took an asset/impact-oriented approach.  Explicitly, we were not concerned about threat actors or specific attack methods, but what assets open science projects have, what harms could befall those assets, and what the impacts from those harms would be to the project.
 
