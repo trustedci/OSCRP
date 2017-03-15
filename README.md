@@ -17,7 +17,7 @@ For assets that are commodity IT or for which a risk profile already exists, thi
 The latest version of the OSCRP may be found at https://trustedci.github.io/OSCRP/OSCRP.html
 
 Published snapshots of the OSCRP include:
- * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. 2017. Open Science Cyber Risk Profile (OSCRP), Version 1.0. March 2017. http://hdl.handle.net/2022/21259
+ * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. 2017. Open Science Cyber Risk Profile (OSCRP), Version 1.2. March 2017. http://hdl.handle.net/2022/21259
 
 ## What is an asset?
 “Assets” are computing systems, data storage systems, networking, digital sensors, scientific and other advanced instruments, scientific data, personnel, and an interoperable suite of software services and tools, including data repositories, visualization environments, and analytic environments. Assets also include the computer-controlled, network-connected elements of physical plants responsible for the safety and security of these systems, such as power and HVAC.
