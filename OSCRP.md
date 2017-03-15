@@ -6,7 +6,7 @@ title: Open Science Cyber Risk Profile
 # Open Science Cyber Risk Profile
 
 ## Table of Contents
-1. [Authors](#authors)
+1. [About this Document](#about)
 2. [Overview and Goals](#overview-and-goals)
 3. [Who This Document is Intended For](#who-this-document-is-intended-for)
 4. [Introduction](#introduction)
@@ -32,13 +32,16 @@ title: Open Science Cyber Risk Profile
 14. [Contributing to this Document](#contributing-to-this-document)
 
 
-<!--<a name="#authors" / >-->
+<!--<a name="#about" / >-->
 
-## <a name="authors"></a>1. Authors
+## <a name="about"></a>1. About this Document
 
-This OSCRP is a product of the OSCRP working group. The OSCRP working group is led by [*Sean Peisert*](http://crd.lbl.gov/Q/peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from ESnet and [*Von Welch*](https://cacr.iu.edu/about/people/administration/von-welch.php), [*Andrew Adams*](https://www.psc.edu/staff/akadams), and [*Susan Sons*](https://cacr.iu.edu/about/people/staff/susan-sons.php) from the NSF Cybersecurity Center of Excellence. Core members of the working group are: [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue HUBzero)*](https://hubzero.org/members/1292), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X). Contributing members are [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Reagan Moore (iRods)*](http://irods.org/2016/06/profile-of-a-data-science-pioneer-dr-reagan-moore/), [*Warren Raquel (NCSA)*](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel).
+This is version 1.0 of the OSCRP. Please cite as:
+ * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. 2017. Open Science Cyber Risk Profile (OSCRP), Version 1.0. March 2017. http://hdl.handle.net/2022/21259
 
 This release is dated {{ site.time | date_to_long_string }}.  The latest version of the document can be found at [*https://trustedci.github.io/OSCRP/OSCRP.html*](https://trustedci.github.io/OSCRP/OSCRP.html).  For more information about the group, please see [*https://trustedci.github.io/OSCRP/*](https://trustedci.github.io/OSCRP/).
+
+This OSCRP is a product of the OSCRP working group. The OSCRP working group is led by [*Sean Peisert*](http://crd.lbl.gov/Q/peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from ESnet and [*Von Welch*](https://cacr.iu.edu/about/people/administration/von-welch.php), [*Andrew Adams*](https://www.psc.edu/staff/akadams), and [*Susan Sons*](https://cacr.iu.edu/about/people/staff/susan-sons.php) from the NSF Cybersecurity Center of Excellence. Core members of the working group are: [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue HUBzero)*](https://hubzero.org/members/1292), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X). Contributing members are [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Reagan Moore (iRods)*](http://irods.org/2016/06/profile-of-a-data-science-pioneer-dr-reagan-moore/), [*Warren Raquel (NCSA)*](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel).
 
 <!--<a name="#executive-summary" / >-->
 
