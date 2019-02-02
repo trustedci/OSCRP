@@ -16,7 +16,7 @@
 title: Open Science Cyber Risk Profile
 email: oscrp@trustedci.org
 description: > # this means to ignore newlines until "baseurl:"
- Welcome to OSCRP, a joint project of the NSF Cybersecurity of Excellence and the Department of Engery's Energy Science Network (ESnet).
+ Welcome to OSCRP, a joint project of the NSF Cybersecurity of Excellence and the Department of Energy's Energy Science Network (ESnet).
 baseurl: "/OSCRP" # the subpath of your site, e.g. /blog
 url: "http://trustedci.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
