@@ -192,7 +192,7 @@ The following are the intended steps for using this document. The expectation is
 
 <!-- <a name="#embargoed-data-case-study" / > -->
 
-## <a name="embargoed-data-case-study"></a>7. Usage Example: Embargoed Data Case Study
+## <a name="usage-example-embargoed-data-case-study"></a>7. Usage Example: Embargoed Data Case Study
 
 To demonstrate how to carry out the risk profile steps, we'll pretend we are the PI for a small science project that has two telescopes tracking changes in the night sky over time.  In *Step 1* of the process flow, we identify the stakeholders as our immediate project team, a collaborating research team, and the institutions that house the two telescopes.  The stakeholders may be brought in to help with the remaining steps as well as to discuss the results.
 
