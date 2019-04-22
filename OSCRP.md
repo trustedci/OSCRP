@@ -215,7 +215,7 @@ We believe the following Assets apply to our project:
 
 ![Example 1 Base Diagram](diagrams/Embargoed_Data.png)
 
-From this diagram, select the Concerns and Consequences that are most relevant to your project.  It is often helpful to color code your own copy of the diagram to help portray these decisions and well as their relative importance.  By focusing on the Consequences that are most important to the project, it will automatically lead us to the Avenues of Attacks that we will want to be most concerned about.  This will help prioritize later actions.
+From this diagram, select the Concerns and Consequences that are most relevant to your project.  It is often helpful to color code your own copy of the diagram to help portray these decisions as well as their relative importance.  By focusing on the Consequences that are most important to the project, it will automatically lead us to the Avenues of Attacks that we will want to be most concerned about.  This will help prioritize later actions.
 
 ![Example 1 Edited Diagram](diagrams/Embargoed_Data_Edited.png)
 
