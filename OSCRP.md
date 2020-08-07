@@ -43,13 +43,13 @@ Citation for v1.2:
 
 This release is dated {{ site.time | date_to_long_string }}.  The latest version of the document can be found at [*https://trustedci.github.io/OSCRP/OSCRP.html*](https://trustedci.github.io/OSCRP/OSCRP.html).  For more information about the group, please see [*https://trustedci.github.io/OSCRP/*](https://trustedci.github.io/OSCRP/).
 
-This OSCRP is a product of the OSCRP working group. The OSCRP working group is led by [*Sean Peisert*](http://crd.lbl.gov/Q/peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from ESnet and [*Von Welch*](https://cacr.iu.edu/about/people/administration/von-welch.php), [*Andrew Adams*](https://www.psc.edu/staff/akadams), and [*Susan Sons*](https://cacr.iu.edu/about/people/staff/susan-sons.php) from the NSF Cybersecurity Center of Excellence. Core members of the working group are: [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue HUBzero)*](https://hubzero.org/members/1292), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X). Contributing members are [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Reagan Moore (iRods)*](http://irods.org/2016/06/profile-of-a-data-science-pioneer-dr-reagan-moore/), [*Warren Raquel (NCSA)*](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel).
+The OSCRP is a community effort led by Trusted CI.  The current maintainer is [*Sean Peisert*](https://www.cs.ucdavis.edu/~peisert/).  The 2016 OSCRP working group that originally created this document was led by [*Sean Peisert*](https://www.cs.ucdavis.edu/~peisert/) and [*Michael Dopheide*](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/) from Berkeley Lab and ESnet and [*Von Welch*](https://cacr.iu.edu/about/people/administration/von-welch.php), [*Andrew Adams*](https://www.psc.edu/staff/akadams), and [*Susan Sons*](https://cacr.iu.edu/about/people/staff/susan-sons.php) from Trusted CI. Core members of the 2016 working group were: [*RuthAnne Bevier (Caltech)*](https://directory.caltech.edu/personnel/thanne), [*Rich LeDuc (Northwestern)*](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), [*Pascal Meunier (Purdue / HUBzero)*](https://hubzero.org/members/1292), [*Stephen Schwab (USC Information Sciences Institute)*](http://www.isi.edu/people/schwab/about) and [*Karen Stocks (Scripps Institution of Oceanography)*](http://orcid.org/0000-0002-1282-300X). Contributing members were [*Ilkay Altintas (San Diego Supercomputer Center)*](http://swat.sdsc.edu/ilkay/), [*James Cuff (Harvard)*](http://scholar.harvard.edu/jcuff/home), [*Reagan Moore (UNC / iRods)*](http://irods.org/2016/06/profile-of-a-data-science-pioneer-dr-reagan-moore/), [*Warren Raquel (UIUC / NCSA)*](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel).
 
 <!--<a name="#executive-summary" / >-->
 
 ## <a name="overview-and-goals"></a>2. Overview and Goals
 
-While Open Science, with its culture of public data, does not have the same cybersecurity concerns as many other sectors such as finance and medicine, it is not free from threats. The Open Science Cyber Risk Profile (OSCRP) is designed to help Principal Investigators (PI) and their supporting Information Technology (IT) professionals assess cybersecurity risks related to Open Science projects. Specifically, it provides a catalog of typical Open Science Assets and the risks associated with those Assets. For those utilizing the [CTSC Cybersecurity Program Guide](http://trustedci.org/guide/), it should expedite the process of inventorying Assets and provide guidance in completing a Risk Assessment Table.
+Open science, with its culture and even mandate of publishing and public data, does not have the same cybersecurity concerns as certain sectors such as financial services, healthcare, and other critical infrastructure,  However, it is not free from threats. The Open Science Cyber Risk Profile (OSCRP) is designed to help principal investigators (PIs) and their supporting information technology (IT) professionals assess cybersecurity risks related to Open Science projects, as a way of helping scientists and IT professionals begin conversations with information security personnel about possible mitigations of those risks. Specifically, it provides a catalog of typical Open Science Assets and the risks associated with those Assets. For those utilizing the [Trusted CI Cybersecurity Program Guide](http://trustedci.org/guide/) or the [Trusted CI Framework](https://www.trustedci.org/framework), it should expedite the process of inventorying Assets and provide guidance in completing a Risk Assessment Table.
 
 This document achieves these goals by providing a list of information Assets common to Open Science projects, which are meaningful to the science mission of those projects, and for each provides plausible Avenues of Attack for those Assets, with a list of Concerns and Consequences. 
 
@@ -73,21 +73,21 @@ Other goals of the document include:
 
 ## <a name="who-this-document-is-intended-for"><a/>3. Who This Document is Intended For
 
-The primary audience of this document is principal investigators (PIs) and information technology (IT) professionals involved in Open Science projects that rely on computing infrastructure (defined broadly as computers, networking, sensors, control systems, etc.) Open Science is defined here as a project working on science that is not classified and for which the results are intended to be communicated publicly. This includes most science funded by NSF, DOE ASCR, and NIH, and may also include some research funded by industry and/or foundations. Open Science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
+The primary audience of this document is principal investigators (PIs) and information technology (IT) professionals involved in Open Science projects that rely on computing infrastructure (defined broadly as computers, networking, sensors, control systems, etc.) Open Science is defined here as a project working on science that is not classified per government regulations, and for which the results are intended to be communicated publicly. This includes most science funded by the National Science Foundation (NSF), the Department of Energy (DOE) Office of Science, and the National Institutes of Health (NIH), and may also include some research funded by other government agencies, industry, and/or foundations. Open Science may have some data that is not public (e.g., personal health information) or transitorily private for periods of time (e.g., during scientific embargoes, quality assurance, or internal review).
 
 Not every scientific research project has a dedicated or even designated "information technology professional" involved. However, we make the assumption that even such projects typically have a *de facto* IT person. That person may be at the "institutional level" and therefore be almost entirely disconnected from the scientific project, and perhaps even completely unaware of it. In those cases, one of the purposes for this document is to enable PIs to help engage with institutional IT professionals to discuss risks.
 
-A secondary audience for this document is institutional IT professionals (e.g., CIOs, CISOs). While we do not anticipate that institutional IT professionals will necessarily use this document directly, we expect that it may be a useful reference for institutional IT professionals to provide to PIs and research IT professionals within their organization.
+A secondary audience for this document is institutional IT professionals (e.g., CIOs, CISOs). While we do not anticipate that institutional IT professionals will necessarily use this document directly, we expect that it may be a useful reference for institutional IT professionals to provide to PIs and research IT professionals within their organization, and use as a starting point for discussions with PIs and research IT professionals.
 
-We do make the assumption that the institution where Open Science takes place has some kind of security professional at some level,  in addition to a defined or de facto IT person, regardless of whether that person is directly attached to the science project or is at the institutional level.
+We do make the assumption that the institution where Open Science takes place has some kind of security professional at some level, in addition to a defined or *de facto* IT person, regardless of whether that person is directly attached to the science project or is at the institutional level.
 
-**If you utilize this document and find it useful, your acknowledgement of that (and other feedback) is requested by sending an email to info@trustedci.org.**
+**If you utilize this document and find it useful, your acknowledgement of that (and other feedback) is requested by sending an email to [info@trustedci.org](info@trustedci.org).**
 
 <!-- <a name="#introduction" / >-->
 
 ## <a name="introduction"></a>4. Introduction
 
-We read stories daily about computer security incidents. Home Depot. Sony. The U.S. Office of Personnel Management. Hospitals getting hit by ransomware. All of those organizations take security seriously, but are still vulnerable.
+We read stories daily about computer security incidents. Marriott. Anthem. Equifax. The U.S. Office of Personnel Management. Hospitals getting hit by ransomware. All of those organizations take security seriously, but are still vulnerable.
 
 Believe it or not, science --- even unclassified, Open Science is vulnerable as well. And indeed, Open Science can at times be particularly vulnerable because Open Science is often so exposed, since by nature there tends to be significant sharing of data, resources, and/or results.
 
@@ -95,16 +95,16 @@ Sometimes, that science is specifically targeted by attackers whose goal is disr
 
 At other times, attackers --- perhaps even scientific competitors --- may be interested in seeing data before it is publicly released. Attackers might even be interested in tainting the results of experiments. Finally, computing systems related to science projects can suffer a disruptive security incident without being specifically targeted by an attacker at all, simply by being present on a network, and exploitable.
 
-We assert that something on the order of 80% of "good computer security" results from basic "computer hygiene," such as having multiple backups including some off-site, keeping systems "patched" and up to date, and limiting access controls as much as possible. This document does not cover basic computer hygiene or system administration. This document is intended to cover the *other* 20% that basic hygiene and administration *do not* cover well.
+We assert that something on the order of 80% of "good computer security" results from basic "computer hygiene," such as having multiple backups including some off-site, keeping systems "patched" and up to date, changing empty or default passwords, and limiting access controls as much as possible. This document does not cover basic computer hygiene or system administration. This document is intended to cover the *other* 20% that basic hygiene and administration *do not* cover well.  We cannot stress strongly enough that science projects that have not addressed "basic hygiene" should stop and address those issues immediately before proceeding.
 
 <!--<a name="#bad-things-can-happen-to-good-science" / >-->
 
 ## <a name="bad-things-can-happen-to-good-science"><a/>5. Bad Things Can Happen to Good Science
 
 There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. Several real examples, with identifying details removed, are described below. They show that the damage can range
-from simple disruption and some loss of work time to significant financial resources spent to repair systems and recover scientific data, significant impact on those projects being able to fulfill their mission. 
+from simple disruption and some loss of work time to significant financial resources spent to repair systems and recover scientific data, and significant impact on those projects being able to fulfill their mission. In some of the worst cases, data could be tainted, deleted, or captured by ransomware in a way that it is difficult to recover, such as when [UC San Francisco COVID-19 research was hit by ransomware](https://www.ucsf.edu/news/2020/06/417911/update-it-security-incident-ucsf) (eventually paying $1.14 million), or scientific instruments are made unavailable during a critical, rare natural event, such as when the [University of Western Australia's Zadko telescope was attacked in 2017 during the exact signs of a neutron star merger](https://www.abc.net.au/news/2017-10-17/cyber-attack-almost-costs-team-look-at-colliding-neutron-stars/9055816).
 
-Concerns of malicious tampering have historically been organized into three categories: Integrity (e.g. trust), Availability (e.g. accessibility), and Confidentiality (e.g. privacy.) With respect to Integrity, it is critical that scientific outputs be trusted as uncorrupted if they are to be used as the foundation for future science and critical policy decisions. The loss of Availability of valuable data or instruments can slow the scientific process, lead to lost science opportunities (e.g., if data are permanently lost, or a sensor is down during a particular natural phenomenon), be expensive to replace, and lead to embarrassment and a loss of reputation. And finally, even open science projects generally have Confidentiality concerns with respect to embargoed data, such as data that have not been quality assessed or will be released after publication, and restricted data, such as personally identifiable information that Federal regulations prohibit exposing.
+Concerns of malicious tampering have historically been organized into three categories: Integrity (e.g., trust), Availability (e.g., accessibility), and Confidentiality (e.g., privacy).  With respect to Integrity, it is critical that scientific outputs be trusted as uncorrupted if they are to be used as the foundation for future science and critical policy decisions. The loss of Availability of valuable data or instruments can slow scientific process, lead to lost science opportunities (e.g., if data is permanently lost, or a sensor is down during a particular natural phenomenon), be expensive to replace, and lead to embarrassment and a loss of reputation. And finally, even open science projects generally have Confidentiality concerns with respect to embargoed data, such as data that have not been quality assessed or will be released after publication, and restricted data, such as personally identifiable information that Federal regulations prohibit exposing.
 
 <!-- <a name="#examples-of-computer-security-incidents-affecting-research" / > -->
 
@@ -138,11 +138,18 @@ Concerns of malicious tampering have historically been organized into three cate
 **Concern:** Inaccessible or lost research data  
 **Consequences:** Lost science time
 
+**5-5.** Scientific data collected from sensors observing physical phenomenon are being ingested, stored, and processed on lab computing server.  At some point during ingest, perhaps in the network, perhaps in memory, or during processing, a cosmic ray causes a bit to "flip" from a 1 to a 0 in the dataset for a point representing the existence of the phenomenon.  The data was transferred by FTP and the checksums used for unencrypted network communications were inadequate to detect and correct the missing datapoint.  The data was only being stored on one system, so replicas can't be cross-checked against.  The data wasn't stored yet, and so also wasn't yet backed up.  
+
+**Asset:** Computer system storing scientific data
+**Concern:** Corrupt research data  
+**Consequences:** Incorrect conclusions (if not noticed), lost science time spent recovering data from backups (where available), or lost scientific opportunity if the data is lost and the event the data might be ased on is not easily recaptured.
+
+
 <!-- <a name="#possibly-targeted" / > -->
 
 ### <a name="possibly-targeted"></a>Possibly targeted
 
-**5-5.** A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers were used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while IT and Information Security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials. Investigation and remediation were complicated further at University A because the research project these systems served involved a physically remote location with poor network connectivity. At the time the intrusion was discovered, all personnel directly familiar with the configuration and management of these systems were at the remote location, with little in the way of explanatory documentation left for local IT staff to rely on while attempting to investigate and resolve the incident. Downtime, widespread credential changes, and general confusion all impacted the research project.
+**5-6.** A group of hackers gained access to a vulnerable scientific computing cluster at University A and quickly determined that these computers were used by collaborators at other universities. The intruders used credentials captured on systems at University A to get into multiple compute clusters in research labs at University B and University C, collecting new captured credentials along the way and gaining additional access to other university systems. Compromised systems were down and unusable for several days in waves at the affected sites, while IT and Information Security personnel investigated the intrusions and rebuilt the affected systems. Users were affected by the downtime and urgent credential change requirements -- in same cases, more than once while the nature of the intrusions was still being investigated. Affected systems were re-hacked during this incident as a result of some privileged users' failure to change credentials. Investigation and remediation were complicated further at University A because the research project these systems served involved a physically remote location with poor network connectivity. At the time the intrusion was discovered, all personnel directly familiar with the configuration and management of these systems were at the remote location, with little in the way of explanatory documentation left for local IT staff to rely on while attempting to investigate and resolve the incident. Downtime, widespread credential changes, and general confusion all impacted the research project.
 
 **Assets:** Servers (compute clusters), staff computing & networking and networks  
 **Concerns:** Devices inaccessible and devices exposing sensitive information and transport prevented  
@@ -152,17 +159,23 @@ Concerns of malicious tampering have historically been organized into three cate
 
 ### <a name="targeted"></a>Targeted
 
-**5-6.** A politically controversial project (the building of a new large-scale telescope) was subjected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.  
+**5-7.** A politically controversial project (the building of a new large-scale telescope) was subjected to attack by "hacktivists" who generated large quantities of protest mail to the mailboxes of the officers of the project and the project's informational contact address, rendering these mailboxes unusable due to the volume of messages. Protesters also engaged in distributed denial-of-service attacks against the project's website, repeatedly knocking it offline. This made communication between the project and its supporters, the media, and citizenry who wished to learn more about the controversy extremely difficult.  
 **Assets:** Servers (mail) and networks  
 **Concerns:** Devices inaccessible and transport prevented  
 **Consequences:** Lost science time and reduced reputation
 
-**5-7.** The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their words in private email messages were taken out of context) of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.  
+**5-8.** The primary mail server for a university's climate research group was hacked by protesters, who then copied off the mail from this server and made it public shortly before a scheduled world summit on climate change. Subsequent media reports accused researchers (who said their words in private email messages were taken out of context) of fraud and conspiracy. In addition to the immediate impact of the security incident on the mail server and its usability, the aftermath of the intrusion included multiple separate fraud and misconduct investigations. Although these investigations failed to substantiate allegations of fraud, public confidence in climate change research was damaged.  
 **Asset:** Internal data  
 **Concern:** Data exposed  
 **Consequences:** Reduced reputation and legal action
 
-The point we emphasize with these examples is that computer security-related Consequences in Open Science can be as important as Consequences elsewhere, and researchers should not assume that simply because data are eventually intended to be published openly that they should not care about computer security. Nor should researchers assume that their institutions will protect them—at least not without active engagement between the PI and the institution.
+**5-9.**  
+**Asset:** Scientific data containing personally identifiable financial information, and being used in an economics study, was stored on a campus server designed to handle sensitive information.  The data was made accessible to a handful of investigators and their students through the use of a secure enclave, including a variety of protective measures.  A few weeks later, portions of the data appeared on the dark web.  Given the protective measures taken to secure the information, investigators thought that the data most likely was either leaked by an insider, or through an "analog" security hole.
+**Concern:** Data exposed  
+**Consequences:** Reduced reputation and legal action, including fines and inability to obtain future data or research funding.
+
+
+The point we emphasize with these examples is that computer security-related Consequences in Open Science can be as important as Consequences elsewhere, and researchers should not assume that simply because data is eventually intended to be published openly that they should not care about computer security. Nor should researchers assume that their institutions will protect them—at least not without active engagement between the PI and the institution.
 
 <!-- <a name="#how-to-use-this-document" / > -->
 
@@ -188,7 +201,7 @@ The following are the intended steps for using this document. The expectation is
 
 6.  Repeat this assessment annually, or more frequently if the project’s Assets or risks have changed.
 
-**While *mitigations* are outside the scope of this document, the process of identifying key Assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that the CTSC can help identify these external sources here, as well.**
+**While *mitigations* are outside the scope of this document, the process of identifying key Assets and avenues of attack is intended to help guide scientists and IT professionals in pursuing risk-justified controls to mitigate avenues of attack via other sources. Note that Trusted CI can help identify these external sources here, as well.**
 
 <!-- <a name="#embargoed-data-case-study" / > -->
 
@@ -347,7 +360,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## <a name="next-steps"></a>9. Next Steps
 
-As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating Concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related Concerns and Avenues of Attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.
+As mentioned earlier, this document focuses on the process of identifying key scientific Assets and understanding some of the key risks that those Assets may be vulnerable to. However, this document does not attempt to address the process of actually mitigating Concerns. This document aims to enable the PI or information technology lead to go through the process of assessing computer security related Concerns and Avenues of Attack, in order to help them have a dialogue with personnel with cybersecurity expertise who *can* actually assist with mitigation steps by implementing appropriate protections.  The [Trusted CI Cybersecurity Program Guide](http://trustedci.org/guide/) and the [Trusted CI Framework](https://www.trustedci.org/framework) are provided as complementary documents to this one, and are intended for campus cybersecurity professionals.
 
 <!--<a name="#conclusions" / >-->
 
@@ -361,13 +374,19 @@ Open Science, despite having a culture of public data and open collaboration, st
 
 For projects that need assistance, here are some resources to consider:
 
--   The NSF Cybersecurity Center of Excellence: [*http://trustedci.org/help/*](http://trustedci.org/help/)
+-   [Trusted CI](https://www.trustedci.org), the NSF Cybersecurity Center of Excellence: [*http://trustedci.org/help/*](http://trustedci.org/help/)
+	- [Trusted CI Cybersecurity Program Guide](https://trustedci.org/guide/) 
+	- [Trusted CI Framework](https://www.trustedci.org/framework) 
 -   [The EDUCAUSE IT Risk Register](https://library.educause.edu/resources/2015/10/it-risk-register)
 -  [HEISC's Information Security Guide](https://spaces.internet2.edu/display/2014infosecurityguide/Home)
 
+Trusted CI is also in the process of putting together a set of reports on specific issues in security of Open Science.  This list will expand over time:
+
+- [An Examination and Survey of Random Bit Flips and Scientific Computing](http://hdl.handle.net/2022/24910)
+
 
 ## <a name="acknowledgments"></a>12. Acknowledgments
-We thank the National Science Foundation (grant 1547272) for supporting our work.
+We thank the National Science Foundation ([grant 1547272](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1547272)) for supporting this work.
 
 Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231. Karen Stocks' work was supported by NSF OCE award 1327683 for the Science Support Office of the International Ocean Discovery Program. 
 
