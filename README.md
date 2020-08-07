@@ -1,5 +1,3 @@
-[![NSF-1920430](https://img.shields.io/badge/NSF-1920430-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1920430)
-
 # Open Science Cyber Risk Profile (OSCRP)
 Welcome to OSCRP, a community project led by [Trusted CI, the NSF Cybersecurity Center of Excellence](http://trustedci.org).
 
@@ -55,3 +53,5 @@ Published snapshots of the OSCRP include:
 Contact us by emailing [oscrp@trustedci.org](mailto://oscrp@trustedci.org).
 
 ![CTSC Logo](https://github.com/trustedci/OSCRP/blob/master/images/CTSC.jpg) ![LBNL Logo](https://github.com/trustedci/OSCRP/blob/master/images/Berkeley_Lab_Logo_Small.png) ![ESnet Logo](https://github.com/trustedci/OSCRP/blob/master/images/esnet-logo.png)
+
+[![NSF-1920430](https://img.shields.io/badge/NSF-1920430-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1920430)
