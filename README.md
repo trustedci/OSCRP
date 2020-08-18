@@ -29,27 +29,27 @@ Published snapshots of the OSCRP include:
 ## 2016 Working Group and Original Authors
 
 *Core members:*  
-[RuthAnne Bevier](https://directory.caltech.edu/personnel/thanne), California Institute of Technology
-[Rich LeDuc](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), Northwestern University
+[RuthAnne Bevier](https://directory.caltech.edu/personnel/thanne), California Institute of Technology  
+[Rich LeDuc](http://www.kelleher.northwestern.edu/people/staff/item/rich-leduc), Northwestern University  
 [Pascal Meunier](https://hubzero.org/members/1292), Purdue University / HUBzero  
 [Steve Schwab](http://www.isi.edu/people/schwab/about), USC Information Sciences Institute   
 [Karen Stocks](http://orcid.org/0000-0002-1282-300X), UC San Diego / Scripps Institution of Oceanography
 
 *Contributing members:*  
-[Ilkay Atlintas](http://swat.sdsc.edu/ilkay/), UC San Diego / San Diego Supercomputer Center 
-[James Cuff](http://scholar.harvard.edu/jcuff/home), Harvard University
+[Ilkay Atlintas](http://swat.sdsc.edu/ilkay/), UC San Diego / San Diego Supercomputer Center  
+[James Cuff](http://scholar.harvard.edu/jcuff/home), Harvard University  
 [Warren Raquel](http://www.ncsa.illinois.edu/assets/php/directory/contact.php?contact=wraquel), UIUC / National Center for Supercomputing Applications  
 [Reagan Moore](http://irods.org/2016/06/profile-of-a-data-science-pioneer-dr-reagan-moore/), University of North Carolina / iRods  
 
-## Organizers
-[Sean Peisert](https://www.cs.ucdavis.edu/~peisert/), Berkeley Lab / ESnet
-[Von Welch](https://cacr.iu.edu/about/people/administration/von-welch.php), Indiana University
-[Andrew Adams](https://www.psc.edu/staff/akadams), Pittsburgh Supercomputing Center
-[Michael Dopheide](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/), ESnet
-[Susan Sons](https://cacr.iu.edu/about/people/staff/susan-sons.php), Indiana University (former)
+*Organizers:*
+[Sean Peisert](https://www.cs.ucdavis.edu/~peisert/), Berkeley Lab / ESnet  
+[Von Welch](https://cacr.iu.edu/about/people/administration/von-welch.php), Indiana University  
+[Andrew Adams](https://www.psc.edu/staff/akadams), Pittsburgh Supercomputing Center  
+[Michael Dopheide](http://es.net/about/esnet-staff/cybersecurity/michael-dopheide/), ESnet  
+[Susan Sons](https://cacr.iu.edu/about/people/staff/susan-sons.php), Indiana University (former)  
 
 ## Questions?
 
 Contact us by emailing [oscrp@trustedci.org](mailto://oscrp@trustedci.org).
 
-![CTSC Logo](https://github.com/trustedci/OSCRP/blob/master/images/CTSC.jpg) ![LBNL Logo](https://github.com/trustedci/OSCRP/blob/master/images/Berkeley_Lab_Logo_Small.png) ![ESnet Logo](https://github.com/trustedci/OSCRP/blob/master/images/esnet-logo.png)
+![Trusted CI Logo](https://github.com/trustedci/OSCRP/blob/master/images/TrustedCI_logo_blue_web.png) ![LBNL Logo](https://github.com/trustedci/OSCRP/blob/master/images/Berkeley_Lab_Logo_Small.png) ![ESnet Logo](https://github.com/trustedci/OSCRP/blob/master/images/esnet-logo.png)

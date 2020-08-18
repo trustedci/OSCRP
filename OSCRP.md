@@ -386,9 +386,9 @@ Trusted CI is also in the process of putting together a set of reports on specif
 
 
 ## <a name="acknowledgments"></a>12. Acknowledgments
-We thank the National Science Foundation ([grant 1547272](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1547272)) for supporting this work.
+We thank the National Science Foundation for its support of this work under grant numbers [1547272](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1547272) and [1920430](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1920430).
 
-Sean Peisert and Michael Dopheide's work on this effort was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231. Karen Stocks' work was supported by NSF OCE award 1327683 for the Science Support Office of the International Ocean Discovery Program. 
+Sean Peisert and Michael Dopheide's work on this effort in 2016 was supported by the Director, Office of Science, Office of Advanced Scientific Computing Research, of the U.S. Department of Energy under Contract No. DE-AC02-05CH11231. Karen Stocks' work in 2016 was supported by NSF OCE award number 1327683 for the Science Support Office of the International Ocean Discovery Program. 
 
 This research was carried out in collaboration with the National Resource for Translational and Developmental Proteomics under Grant P41 GM108569 from the National Institute of General Medical Sciences, National Institutes of Health.
 
