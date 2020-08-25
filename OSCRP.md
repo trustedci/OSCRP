@@ -38,8 +38,8 @@ title: Open Science Cyber Risk Profile
 
 This document is based on version 1.2 of the OSCRP. View [changes since 1.2](https://github.com/trustedci/OSCRP/compare/v1.2...master).
 
-Citation for v1.2:
- * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. 2017. Open Science Cyber Risk Profile (OSCRP), Version 1.2. March 2017. http://hdl.handle.net/2022/21259
+Citation for v1.3:
+ * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. Open Science Cyber Risk Profile (OSCRP), Version 1.3. August 2020. http://hdl.handle.net/2022/21259
 
 This release is dated {{ site.time | date_to_long_string }}.  The latest version of the document can be found at [*https://trustedci.github.io/OSCRP/OSCRP.html*](https://trustedci.github.io/OSCRP/OSCRP.html).  For more information about the group, please see [*https://trustedci.github.io/OSCRP/*](https://trustedci.github.io/OSCRP/).
 
@@ -104,7 +104,7 @@ We assert that something on the order of 80% of "good computer security" results
 There are numerous examples of Open Science projects being affected by attacks over computer networks. Some of these attacks have specifically targeted the science projects, while in other examples, science projects have simply been collateral damage. Several real examples, with identifying details removed, are described below. They show that the damage can range
 from simple disruption and some loss of work time to significant financial resources spent to repair systems and recover scientific data, and significant impact on those projects being able to fulfill their mission. In some of the worst cases, data could be tainted, deleted, or captured by ransomware in a way that it is difficult to recover, such as when [UC San Francisco COVID-19 research was hit by ransomware](https://www.ucsf.edu/news/2020/06/417911/update-it-security-incident-ucsf) (eventually paying $1.14 million), or scientific instruments are made unavailable during a critical, rare natural event, such as when the [University of Western Australia's Zadko telescope was attacked in 2017 during the exact signs of a neutron star merger](https://www.abc.net.au/news/2017-10-17/cyber-attack-almost-costs-team-look-at-colliding-neutron-stars/9055816).
 
-Concerns of malicious tampering have historically been organized into three categories: Integrity (e.g., trust), Availability (e.g., accessibility), and Confidentiality (e.g., privacy).  With respect to Integrity, it is critical that scientific outputs be trusted as uncorrupted if they are to be used as the foundation for future science and critical policy decisions. The loss of Availability of valuable data or instruments can slow scientific process, lead to lost science opportunities (e.g., if data is permanently lost, or a sensor is down during a particular natural phenomenon), be expensive to replace, and lead to embarrassment and a loss of reputation. And finally, even open science projects generally have Confidentiality concerns with respect to embargoed data, such as data that have not been quality assessed or will be released after publication, and restricted data, such as personally identifiable information that Federal regulations prohibit exposing.
+Concerns of malicious tampering have historically been organized into three categories: *Integrity* (e.g., trust), *Availability* (e.g., accessibility), and *Confidentiality* (e.g., privacy).  With respect to Integrity, it is critical that scientific outputs be trusted as uncorrupted if they are to be used as the foundation for future science and critical policy decisions. The loss of Availability of valuable data or instruments can slow scientific process, lead to lost science opportunities (e.g., if data is permanently lost, or a sensor is down during a particular natural phenomenon), be expensive to replace, and lead to embarrassment and a loss of reputation. And finally, even open science projects generally have Confidentiality concerns with respect to embargoed data, such as data that have not been quality assessed or will be released after publication; proprietary data, such as that provided by a commercial entity; and restricted data, such as personally identifiable information (PII) or protected health information (PHI) that Federal regulations prohibit exposing.
 
 <!-- <a name="#examples-of-computer-security-incidents-affecting-research" / > -->
 
@@ -275,7 +275,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Public Data*](assets/Public-Data/): Published generated or collected Open Science data
 
--   [*Embargoed Data*](assets/Data/): Open Science data that has not yet been publicly released
+-   [*Non-Public Data*](assets/Data/): Data that cannot or has not yet been publicly released
 
 -   [*Internal data*](assets/InternalData/): Data that is never intended to be published.  This includes: generated or derived data (usually intermediate computational results), e-mails or notes
 
