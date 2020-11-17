@@ -383,6 +383,9 @@ For projects that need assistance, here are some resources to consider:
 Trusted CI is also in the process of putting together a set of reports on specific issues in security of Open Science.  This list will expand over time:
 
 - [An Examination and Survey of Random Bit Flips and Scientific Computing](http://hdl.handle.net/2022/24910)
+- [An Examination and Survey of Data Confidentiality Issues and Solutions in Academic Research Computing](https://escholarship.org/uc/item/7cz7m1ws)
+- [Guidance for Trustworthy Data Management in Science Projects](https://doi.org/10.5281/zenodo.4056241)
+
 
 
 ## <a name="acknowledgments"></a>12. Acknowledgments
