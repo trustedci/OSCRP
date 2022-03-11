@@ -356,6 +356,10 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Financial*](assets/Financial/): The financial assets owned by a project
 
+## Specific Examples
+
+### [*Elements of a Science DMZ*](assets/Science-DMZ): A Science DMZ is a portion of the network, built at or near the network perimeter of a research institution for high-performance workflows and large datasets.
+
 <!--<a name="#next-steps" / > -->
 
 ## <a name="next-steps"></a>9. Next Steps
