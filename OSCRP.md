@@ -24,7 +24,7 @@ title: Open Science Cyber Risk Profile
 	* [Software Assets](#software-assets)
 	* [Instruments](#instruments)
 	* [Intangible and Human Assets](#intangible-and-human-assets)
-	* [*Elements of a Science DMZ*](#science-dmz)
+	* [Specific Examples](#examples)
 8. [Next Steps](#next-steps)
 10. [Conclusions](#conclusions)
 11. [Cybersecurity Resources for Open Science](#cybersecurity-resources-for-open-science)
@@ -357,7 +357,7 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Financial*](assets/Financial/): The financial assets owned by a project
 
-## Specific Examples
+## <a name="examples"></a>Specific Examples
 
 <!-- <a name="science-dmz" / > -->
 
