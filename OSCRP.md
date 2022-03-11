@@ -24,6 +24,7 @@ title: Open Science Cyber Risk Profile
 	* [Software Assets](#software-assets)
 	* [Instruments](#instruments)
 	* [Intangible and Human Assets](#intangible-and-human-assets)
+	* [*Elements of a Science DMZ*](#science-dmz)
 8. [Next Steps](#next-steps)
 10. [Conclusions](#conclusions)
 11. [Cybersecurity Resources for Open Science](#cybersecurity-resources-for-open-science)
@@ -358,7 +359,9 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 ## Specific Examples
 
-### [*Elements of a Science DMZ*](assets/Science-DMZ): A Science DMZ is a portion of the network, built at or near the network perimeter of a research institution for high-performance workflows and large datasets.
+<!-- <a name="science-dmz" / > -->
+
+-	[*Elements of a Science DMZ*](assets/Science-DMZ): A Science DMZ is a portion of the network, built at or near the network perimeter of a research institution for high-performance workflows and large datasets.
 
 <!--<a name="#next-steps" / > -->
 
