@@ -39,8 +39,8 @@ title: Open Science Cyber Risk Profile
 
 This document is based on version 1.2 of the OSCRP. View [changes since 1.2](https://github.com/trustedci/OSCRP/compare/v1.2...master).
 
-Citation for v1.3.2:
- * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. Open Science Cyber Risk Profile (OSCRP), Version 1.3.2. March 2022. http://hdl.handle.net/2022/21259
+Citation for v1.3.3:
+ * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. Open Science Cyber Risk Profile (OSCRP), Version 1.3.3. October 2022. http://hdl.handle.net/2022/21259
 
 This release is dated {{ site.time | date_to_long_string }}.  The latest version of the document can be found at [*https://trustedci.github.io/OSCRP/OSCRP.html*](https://trustedci.github.io/OSCRP/OSCRP.html).  For more information about the group, please see [*https://trustedci.github.io/OSCRP/*](https://trustedci.github.io/OSCRP/).
 
@@ -315,6 +315,8 @@ In this section we list common Open Science Assets and provide a diagram for eac
 
 -   [*Servers*](assets/Servers/): Systems used to access, store, produce and/or manipulate other Assets
 
+-   [*Cloud*](assets/Cloud/): Cloud computing, including Platform as a Service (PaaS), Infrastructure as a Service (IaaS), and Software as a Service (SaaS).
+
 -   [*Desktops*](assets/Desktops/): Systems used to access, store, produce and/or manipulate other Assets
 
 -   [*Laptops*](assets/Laptops/): Systems used to access, store, produce and/or manipulate other Assets
@@ -395,7 +397,7 @@ Trusted CI is also in the process of putting together a set of reports on specif
 - [Guidance for Trustworthy Data Management in Science Projects](https://doi.org/10.5281/zenodo.4056241)
 - [The State of the Scientific Software World: Findings of the 2021 Trusted CI Software Assurance Annual Challenge Interviews](http://hdl.handle.net/2022/26799)
 - [Guide to Securing Scientific Software](https://doi.org/10.5281/zenodo.5777646)
-
+- [Findings of the 2022 Trusted CI Study on the Security of Operational Technology in NSF Scientific Research](https://doi.org/10.5281/zenodo.6828675)
 
 
 ## <a name="acknowledgments"></a>12. Acknowledgments
