@@ -37,7 +37,7 @@ title: Open Science Cyber Risk Profile
 
 ## <a name="about"></a>1. About this Document
 
-This document is based on version 1.2 of the OSCRP. View [changes since 1.2](https://github.com/trustedci/OSCRP/compare/v1.2...master).
+View [changes since 1.3.2](https://github.com/trustedci/OSCRP/commit/e14f5bae6228223c301a55e57c700795e9c18c82).
 
 Citation for v1.3.3:
  * Peisert, Sean, Von Welch, Andrew Adams, RuthAnne Bevier, Michael Dopheide, Rich LeDuc, Pascal Meunier, Steve Schwab, and Karen Stocks. Open Science Cyber Risk Profile (OSCRP), Version 1.3.3. October 2022. http://hdl.handle.net/2022/21259
